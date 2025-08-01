@@ -1,3 +1,4 @@
+"use client";
 // import { push, ref } from "firebase/database";
 import { useState } from "react";
 import Link from "next/link";
