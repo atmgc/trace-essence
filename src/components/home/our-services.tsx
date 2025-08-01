@@ -2,13 +2,12 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { StarIcon } from "@/assets/icons";
 
 const services = [
   {
@@ -30,7 +29,10 @@ const OurService = () => {
     <div className="space-y-12 pt-[48px] pb-[92px]">
       <div className="flex items-center justify-between">
         <div>
-          <p className="text-base text-primary">Our Services</p>
+          <div className="flex items-center gap-4">
+            <StarIcon />
+            <p className="text-base text-primary">Our Services</p>
+          </div>
           <h1 className="text-5xl">Service Offerings</h1>
         </div>
         <Button variant={"secondary"}>More Information</Button>

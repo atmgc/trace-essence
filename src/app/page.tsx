@@ -1,3 +1,5 @@
+import DidYouKnow from "@/components/home/did-you-know";
+import Experiences from "@/components/home/experiences";
 import Intro from "@/components/home/intro";
 import OurService from "@/components/home/our-services";
 import Footer from "@/components/shared/footer";
@@ -11,6 +13,9 @@ export default function Home() {
         <Intro />
         <OurService />
       </div>
+      <DidYouKnow />
+      <Experiences />
+      <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]"></div>
       <Footer />
     </div>
   );
