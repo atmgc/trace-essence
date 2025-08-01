@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Facebook, Linkedin, Twitter } from "lucide-react";
+import Image from "next/image";
 // import { toast } from "sonner";
 // import { database } from "../../firebase";
 
@@ -40,21 +41,16 @@ const Footer = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-6 gap-[40px] py-[50px] px-[16px] md:px-[100px] bg-[#F8F8F8]">
-        <div className="md:col-span-2">
-          <h1 className="font-[900] text-[20px] md:text-[28px] tracking-[-0.04em] text-[#333333]">
-            The 20% Project.
-          </h1>
-          <p className="font-[400] text-base md:text-[20px] leading-[32px] text-[#757575] mt-[16px]">
-            We support people in tech and sports.
-          </p>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-[40px] py-[50px] px-[16px] md:px-[100px] bg-primary">
+        <div>
+          <Image src={"/images/logo.png"} alt="" width={100} height={100} />
           <div className="flex gap-[8px] mt-[24px]">
-            <div className="flex justify-center items-center w-[50px] h-[50px] bg-[#D9D9D9] rounded-full">
+            <div className="flex justify-center items-center w-[50px] h-[50px] bg-white rounded-full">
               <Link href={"https://x.com/20PctProject"} target="_blank">
                 <Twitter />
               </Link>
             </div>
-            <div className="flex justify-center items-center w-[50px] h-[50px] bg-[#D9D9D9] rounded-full">
+            <div className="flex justify-center items-center w-[50px] h-[50px] bg-white rounded-full">
               <Link
                 href={"https://linkedin.com/company/twentypercentproject"}
                 target="_blank"
@@ -62,7 +58,7 @@ const Footer = () => {
                 <Linkedin />
               </Link>
             </div>
-            <div className="flex justify-center items-center w-[50px] h-[50px] bg-[#D9D9D9] rounded-full">
+            <div className="flex justify-center items-center w-[50px] h-[50px] bg-white rounded-full">
               <Link
                 href={"https://www.facebook.com/profile.php?id=61576371820259"}
                 target="_blank"
@@ -74,10 +70,10 @@ const Footer = () => {
         </div>
 
         <div>
-          <h1 className="font-[700] text-[20px] tracking-[-0.04em] text-[#4F4F4F]">
+          <h1 className="font-[700] text-[20px] tracking-[-0.04em] text-white">
             Navigation
           </h1>
-          <ul className="flex flex-col space-y-[8px] md:space-y-[16px] font-[500] text-base md:text-[18px] text-[#757575] mt-[8px]">
+          <ul className="flex flex-col space-y-[8px] md:space-y-[16px] font-[500] text-base md:text-[18px] text-[#F8F8F8] mt-[8px]">
             <Link href="/" className="hover:underline">
               Home
             </Link>
@@ -93,28 +89,25 @@ const Footer = () => {
         </div>
 
         <div>
-          <h1 className="font-[700] text-[20px] tracking-[-0.04em] text-[#4F4F4F]">
+          <h1 className="font-[700] text-[20px] tracking-[-0.04em] text-white">
             Contact Details
           </h1>
-          <ul className="space-y-[8px] md:space-y-[16px] font-[500] text-base md:text-[18px] text-[#757575] mt-[8px]">
+          <ul className="space-y-[8px] md:space-y-[16px] font-[500] text-base md:text-[18px] text-[#F8F8F8] mt-[8px]">
             <li>
-              <a href="tel:+19255197788">+1 (925) 519-7788</a>
+              <a href="mailto:tracessence@gmail.com">tracessence@gmail.com</a>
             </li>
-            <li>
-              <a href="mailto:hello@twentypercentproject.org">
-                hello@twentypercentproject.org
-              </a>
-            </li>
-            <li>North Milpitas Blvd, Milpitas, CA 95035 United States</li>
+            <li>Houston, Texas</li>
             <li></li>
           </ul>
         </div>
 
-        <div className="md:col-span-2">
-          <h1 className="font-[700] text-[20px] tracking-[-0.04em] text-[#4F4F4F]">
-            Newsletter
+        <div>
+          <h1 className="font-[700] text-[20px] tracking-[-0.04em] text-white">
+            Subscribe To Newsletter
           </h1>
-          <p>Want updates from us? Enter your email to subscribe.</p>
+          <p className="text-[#F8F8F8]">
+            Want updates from us? Enter your email to subscribe.
+          </p>
 
           <div className="relative flex items-center mt-[24px]">
             <input
@@ -160,7 +153,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between bg-[#D9D9D9] py-[8px] px-[16px] md:px-[100px]">
+      <div className="flex items-center justify-between bg-primary border-t border-[#F0FFD9] py-[8px] px-[16px] md:px-[100px] text-white">
         <div className="flex flex-col md:flex-row gap-x-2">
           <p>Copyright © 2025 20%project.</p>
           <p>All Rights Reserved.</p>

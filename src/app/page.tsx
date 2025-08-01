@@ -1,3 +1,4 @@
+import Contact from "@/components/home/contact";
 import DidYouKnow from "@/components/home/did-you-know";
 import Experiences from "@/components/home/experiences";
 import Intro from "@/components/home/intro";
@@ -15,7 +16,9 @@ export default function Home() {
       </div>
       <DidYouKnow />
       <Experiences />
-      <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]"></div>
+      <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
