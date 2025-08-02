@@ -9,10 +9,10 @@ const About = () => {
           <StarIcon />
           <p className="text-base text-primary">ABOUT</p>
         </div>
-        <h1 className="text-5xl text-[#222222] mt-3.5">
+        <h1 className="text-5xl text-balance text-[#222222] mt-3.5">
           You are the one we’ve been waiting for...
         </h1>
-        <p className="text-xl text-[#3B3B3B] mt-6">
+        <p className="text-xl text-balance text-[#3B3B3B] mt-6">
           For 10+ years, Tracy’s been turning “Who am I?!” crises into “Hell
           yes, THIS is me!” breakthroughs with her irresistible blend of
           spiritual wisdom, actionable coaching strategies, and contagious

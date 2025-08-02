@@ -53,7 +53,7 @@ const Experiences = () => {
           </div>
           <h1 className="text-5xl">Coaching Experiences</h1>
         </div>
-        <Button variant={"secondary"}>View All Reviews</Button>
+        <Button>View All Reviews</Button>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

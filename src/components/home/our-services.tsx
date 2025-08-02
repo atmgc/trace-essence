@@ -35,7 +35,7 @@ const OurService = () => {
           </div>
           <h1 className="text-5xl">Service Offerings</h1>
         </div>
-        <Button variant={"secondary"}>More Information</Button>
+        <Button>More Information</Button>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
