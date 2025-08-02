@@ -25,7 +25,7 @@ const About = () => {
         </p>
       </div>
 
-      <div>
+      <div className="relative">
         <Image
           src={"/images/tracy.png"}
           alt=""
@@ -33,6 +33,30 @@ const About = () => {
           width={1000}
           height={1000}
         />
+        <div className="absolute top-[-15%] left-[50%]">
+          <Image
+            src={"/images/leaf-xl.png"}
+            alt="leaf image"
+            width={65}
+            height={65}
+          />
+        </div>
+        <div className="absolute bottom-[-15%] left-[20%]">
+          <Image
+            src={"/images/leaf-md.png"}
+            alt="leaf image"
+            width={70}
+            height={70}
+          />
+        </div>
+        <div className="absolute top-[40%] right-[-10%]">
+          <Image
+            src={"/images/leaf-sm.png"}
+            alt="leaf image"
+            width={50}
+            height={50}
+          />
+        </div>
       </div>
     </div>
   );
