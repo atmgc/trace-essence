@@ -1,9 +1,6 @@
 import About from "@/components/about/about";
 import Hero from "@/components/about/hero";
 import Contact from "@/components/home/contact";
-import DidYouKnow from "@/components/home/did-you-know";
-import Experiences from "@/components/home/experiences";
-import OurService from "@/components/home/our-services";
 import Footer from "@/components/shared/footer";
 import Nav from "@/components/shared/nav";
 
@@ -14,10 +11,7 @@ export default function Home() {
       <Hero />
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
         <About />
-        <OurService />
       </div>
-      <DidYouKnow />
-      <Experiences />
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
         <Contact />
       </div>
