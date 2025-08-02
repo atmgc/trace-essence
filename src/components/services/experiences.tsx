@@ -61,7 +61,7 @@ const Experiences = () => {
                 </CardDescription>
                 <div className="flex items-center gap-2">
                   <Clock color="#860D84" size={16} />
-                  <CardDescription className="text-[#232323 text-sm">
+                  <CardDescription className="text-[#232323] text-sm">
                     Duration: 60 mins
                   </CardDescription>
                 </div>

@@ -7,6 +7,7 @@ import Identity from "@/components/services/identity";
 import Experiences from "@/components/services/experiences";
 import Wisdom from "@/components/services/wisdom";
 import Engagements from "@/components/services/engagements";
+import Services from "@/components/services/services";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Experiences />
         <Wisdom />
         <Engagements />
+        <Services />
         <Contact />
       </div>
       <Footer />
