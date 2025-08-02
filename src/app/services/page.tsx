@@ -4,6 +4,7 @@ import Contact from "@/components/home/contact";
 import Footer from "@/components/shared/footer";
 import Nav from "@/components/shared/nav";
 import Identity from "@/components/services/identity";
+import Experiences from "@/components/services/experiences";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px] overflow-hidden">
         <Identity />
+        <Experiences />
         <About />
       </div>
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
