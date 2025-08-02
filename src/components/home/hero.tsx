@@ -70,9 +70,9 @@ const Hero = () => {
           </CardHeader>
           <CardContent className="space-y-4">
             <CardDescription>
-              "My Clarity Igniter Session gave me the courage to leave my
+              &quot;My Clarity Igniter Session gave me the courage to leave my
               unfulfilling career path. Tracy’s intuitive guidance helped me
-              discover my true passion – I’ve never felt more alive!"
+              discover my true passion – I’ve never felt more alive!&quot;
             </CardDescription>
             <CardDescription>~ Sarah Johnson</CardDescription>
           </CardContent>
