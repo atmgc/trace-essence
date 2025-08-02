@@ -1,4 +1,11 @@
-import { HeroLeft, HeroRight } from "@/assets/icons";
+import {
+  CoreArrow,
+  GuidianceArrow,
+  GuidianceSlash,
+  HeroLeft,
+  HeroRight,
+  TestimonialArrow,
+} from "@/assets/icons";
 import Image from "next/image";
 import {
   Card,
@@ -12,8 +19,15 @@ import { Star } from "lucide-react";
 const Hero = () => {
   return (
     <div className="h-[100vh] flex flex-col items-center bg-[#860D8405]">
-      <h1 className="font-[600] text-[60px] text-[#3B3B3B]">
-        Supportive guidance to reach your goals
+      <h1 className="font-[600] text-[60px] text-[#3B3B3B] mt-16">
+        Supportive{" "}
+        <span className="relative">
+          guidance{" "}
+          <span className="absolute bottom-[-15px] right-0">
+            <GuidianceSlash />
+          </span>
+        </span>{" "}
+        to reach your goals
       </h1>
 
       <div className="flex-1 relative w-full flex items-center justify-center">
@@ -40,6 +54,10 @@ const Hero = () => {
             <p className="text-[#909090] text-xs">From 10+ reviews</p>
           </CardContent>
         </Card>
+        <div className="absolute top-[25%] left-[28%]">
+          <GuidianceArrow />
+        </div>
+
         <Card className="absolute top-[10%] left-[70%] bg-white rounded-[15px] border-none max-w-[339px] shadow-[0px_4px_30px_0px_#EEEEEE40]">
           <CardHeader>
             <Image
@@ -59,6 +77,10 @@ const Hero = () => {
             <CardDescription>~ Sarah Johnson</CardDescription>
           </CardContent>
         </Card>
+        <div className="absolute top-[40%] right-[30%]">
+          <TestimonialArrow />
+        </div>
+
         <Card className="absolute bottom-[10%] left-[70%] w-[300px] border-none shadow-[0px_4px_30px_0px_#EEEEEEEE]">
           <CardContent>
             <CardTitle>Core Services</CardTitle>
@@ -76,6 +98,10 @@ const Hero = () => {
             </div>
           </CardContent>
         </Card>
+        <div className="absolute top-[50%] right-[20%]">
+          <CoreArrow />
+        </div>
+
         <div className="absolute bottom-0 left-0">
           <HeroLeft />
         </div>
