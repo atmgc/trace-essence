@@ -18,9 +18,6 @@ export default function Home() {
         <Experiences />
         <Wisdom />
         <Engagements />
-        <About />
-      </div>
-      <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
         <Contact />
       </div>
       <Footer />

@@ -1,14 +1,12 @@
-import { StarIcon } from "@/assets/icons";
+import { RightSlash, StarIcon } from "@/assets/icons";
 import Image from "next/image";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Clock } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
 
@@ -42,12 +40,15 @@ const wisdom = [
 const Engagements = () => {
   return (
     <div className="py-12">
-      <div className="flex flex-col">
+      <div className="relative flex flex-col items-center justify-center">
         <div className="flex items-center gap-4">
           <StarIcon />
           <p className="text-base text-primary uppercase">Our Services</p>
         </div>
-        <h1 className="text-5xl">Intuitive Wisdom Downloads</h1>
+        <h1 className="text-5xl">Speaking Engagements</h1>
+        <div className="absolute bottom-[50%] right-[-15%]">
+          <RightSlash />
+        </div>
       </div>
 
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-20">
@@ -61,22 +62,10 @@ const Engagements = () => {
                 <CardTitle className="text-[#222222] font-[500] text-2xl">
                   {exp.title}
                 </CardTitle>
-                {/* <div className="flex items-center justify-between gap-4">
-                  <CardDescription className="text-primary font-[500] text-xl">
-                    {exp.subtitle}
-                  </CardDescription>
-                  <div className="flex items-center gap-2">
-                    <Clock color="#860D84" size={16} />
-                    <CardDescription className="text-[#232323 text-sm">
-                      Duration: 60 mins
-                    </CardDescription>
-                  </div>
-                </div> */}
               </CardHeader>
               <CardContent className="flex-1">
-                <p className="text-[#909090] text-sm">{exp.content}</p>
                 {exp.list && (
-                  <ul className="list-disc ml-5 mt-2">
+                  <ul className="list-disc ml-5">
                     {exp.list.map((item, idx) => (
                       <li key={idx} className="text-[#909090] text-sm">
                         {item}
