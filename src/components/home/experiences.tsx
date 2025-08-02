@@ -44,16 +44,16 @@ const experiences = [
 
 const Experiences = () => {
   return (
-    <div className="space-y-12 pt-[48px] pb-[92px] bg-[#F8F8F8] px-[16px] md:px-[100px]">
+    <div className="space-y-6 md:space-y-12 pt-[48px] pb-[92px] bg-[#F8F8F8] px-[16px] md:px-[100px]">
       <div className="flex items-center justify-between">
         <div>
           <div className="flex items-center gap-4">
             <StarIcon />
             <p className="text-base text-primary">Reviews</p>
           </div>
-          <h1 className="text-5xl">Coaching Experiences</h1>
+          <h1 className="text-2xl md:text-5xl">Coaching Experiences</h1>
         </div>
-        <Button>View All Reviews</Button>
+        <Button className="hidden md:block">View All Reviews</Button>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

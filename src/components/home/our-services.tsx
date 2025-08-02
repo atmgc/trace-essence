@@ -26,16 +26,16 @@ const services = [
 
 const OurService = () => {
   return (
-    <div className="space-y-12 pt-[48px] pb-[92px]">
+    <div className="space-y-6 md:space-y-12 pt-[48px] pb-[92px]">
       <div className="flex items-center justify-between">
         <div>
           <div className="flex items-center gap-4">
             <StarIcon />
             <p className="text-base text-primary">Our Services</p>
           </div>
-          <h1 className="text-5xl">Service Offerings</h1>
+          <h1 className="text-2xl md:text-5xl">Service Offerings</h1>
         </div>
-        <Button>More Information</Button>
+        <Button className="hidden md:block">More Information</Button>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

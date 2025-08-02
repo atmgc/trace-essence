@@ -19,7 +19,7 @@ import { Star } from "lucide-react";
 const Hero = () => {
   return (
     <div className="h-[100vh] flex flex-col items-center bg-[#860D8405]">
-      <h1 className="font-[600] text-[60px] text-[#3B3B3B] mt-16">
+      <h1 className="font-[600] text-[30px] md:text-[60px] text-[#3B3B3B] mt-16 text-center">
         Supportive{" "}
         <span className="relative">
           guidance{" "}
