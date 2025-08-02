@@ -37,15 +37,24 @@ const Contact = () => {
           </div>
           <div className="space-y-4">
             <Label>Your Email</Label>
-            <Input placeholder="Enter your email" />
+            <Input
+              placeholder="Enter your email"
+              className="bg-white border border-[#E2E2E2] rounded-[12px]"
+            />
           </div>
           <div className="space-y-4">
             <Label>Your Phone</Label>
-            <Input placeholder="Enter your phone number" />
+            <Input
+              placeholder="Enter your phone number"
+              className="bg-white border border-[#E2E2E2] rounded-[12px]"
+            />
           </div>
           <div className="space-y-4">
             <Label>Your Message</Label>
-            <Textarea placeholder="Enter your message" />
+            <Textarea
+              placeholder="Enter your message"
+              className="bg-white border border-[#E2E2E2] rounded-[12px] min-h-[100px]"
+            />
           </div>
           <Button>Send</Button>
         </div>

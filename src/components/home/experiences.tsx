@@ -71,7 +71,7 @@ const Experiences = () => {
                 className="w-[38px] h-[38px]"
               />
             </CardHeader>
-            <CardContent>
+            <CardContent className="space-y-6">
               <CardDescription>{experience.experience}</CardDescription>
               <CardDescription>{experience.name}</CardDescription>
             </CardContent>
