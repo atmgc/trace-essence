@@ -17,7 +17,7 @@ export default function Nav() {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed w-full bg-primary flex justify-between items-center py-4 px-[16px] md:px-[100px] h-[86px] z-50 shadow-[0px_4px_30px_0px_#E8E8E840]">
+    <nav className="sticky top-0 w-full bg-primary flex justify-between items-center py-4 px-[16px] md:px-[100px] h-[86px] z-50 shadow-[0px_4px_30px_0px_#E8E8E840]">
       <Link href="/">
         <Image
           src={"/images/logo.png"}
