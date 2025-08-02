@@ -3,13 +3,39 @@ import Image from "next/image";
 const Intro = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
-      <Image
-        src="/images/intro.png"
-        alt="intro image"
-        className="w-full h-full"
-        width={1000}
-        height={1000}
-      />
+      <div className="relative">
+        <Image
+          src="/images/intro.png"
+          alt="intro image"
+          className="w-full h-full"
+          width={1000}
+          height={1000}
+        />
+        <div className="absolute top-[10%] left-[-10%]">
+          <Image
+            src={"/images/leaf-xl.png"}
+            alt="leaf image"
+            width={100}
+            height={100}
+          />
+        </div>
+        <div className="absolute bottom-[2%] left-[-20%]">
+          <Image
+            src={"/images/leaf-md.png"}
+            alt="leaf image"
+            width={70}
+            height={70}
+          />
+        </div>
+        <div className="absolute top-[50%] right-[0%]">
+          <Image
+            src={"/images/leaf-sm.png"}
+            alt="leaf image"
+            width={50}
+            height={50}
+          />
+        </div>
+      </div>
 
       <div className="space-y-11 col-span-1 md:col-span-2">
         <p className="mt-[100px]">
