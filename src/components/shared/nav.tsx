@@ -8,8 +8,7 @@ import Image from "next/image";
 
 const links = [
   { name: "About", to: "/about" },
-  { name: "Our Work", to: "/our-work" },
-  { name: "Get Involved", to: "/get-involved" },
+  { name: "Services", to: "/services" },
   // { name: "Contact Us", to: "/contact" },
 ];
 
