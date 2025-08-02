@@ -5,6 +5,7 @@ import Footer from "@/components/shared/footer";
 import Nav from "@/components/shared/nav";
 import Identity from "@/components/services/identity";
 import Experiences from "@/components/services/experiences";
+import Wisdom from "@/components/services/wisdom";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px] overflow-hidden">
         <Identity />
         <Experiences />
+        <Wisdom />
         <About />
       </div>
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
