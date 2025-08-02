@@ -29,11 +29,11 @@ const Hero = () => {
           <CardContent className="space-y-1.5">
             <div className="flex items-center justify-between gap-3.5">
               <div className="flex gap-0.5">
-                <Star />
-                <Star />
-                <Star />
-                <Star />
-                <Star />
+                <Star color="#860D84" fill="#860D84" size={24} />
+                <Star color="#860D84" fill="#860D84" size={24} />
+                <Star color="#860D84" fill="#860D84" size={24} />
+                <Star color="#860D84" fill="#860D84" size={24} />
+                <Star color="#860D84" fill="#860D84" size={24} />
               </div>
               <p className="text-[#222222] font-[500] text-xl">5.0</p>
             </div>
