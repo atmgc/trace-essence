@@ -146,3 +146,16 @@
   opacity: 1; /* only the image is dimmed */
   z-index: -1; /* push it behind your content */
 }
+
+.services-background {
+  position: relative; /* create stacking context */
+  overflow: hidden; /* if you ever animate the overlay */
+}
+.services-background::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* top/right/bottom/left = 0 */
+  background: url("/images/services.jpg") center/cover fixed no-repeat;
+  opacity: 1; /* only the image is dimmed */
+  z-index: -1; /* push it behind your content */
+}
