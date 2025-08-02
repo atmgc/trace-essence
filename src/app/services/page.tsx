@@ -3,13 +3,15 @@ import Hero from "@/components/services/hero";
 import Contact from "@/components/home/contact";
 import Footer from "@/components/shared/footer";
 import Nav from "@/components/shared/nav";
+import Identity from "@/components/services/identity";
 
 export default function Home() {
   return (
     <div>
       <Nav />
       <Hero />
-      <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
+      <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px] overflow-hidden">
+        <Identity />
         <About />
       </div>
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
