@@ -49,7 +49,7 @@ const Wisdom = () => {
           <Image
             src={"/images/wisdom.png"}
             alt=""
-            className="w-fit h-fit"
+            className="w-full h-[100%]"
             width={1000}
             height={1000}
           />

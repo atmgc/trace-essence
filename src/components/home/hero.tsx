@@ -44,10 +44,10 @@ const Hero = () => {
           </CardContent>
         </Card>
 
-        <Card className="w-[300px]">
+        <Card className="absolute bottom-[10%] left-[70%] w-[300px] border-none shadow-[0px_4px_30px_0px_#EEEEEEEE]">
           <CardContent>
             <CardTitle>Core Services</CardTitle>
-            <div className="space-y-3">
+            <div className="space-y-3 mt-5">
               <div className="bg-[#FFE2FF] px-7 py-2 rounded-[99px]">
                 <p className="text-[#232323] text-sm">
                   Clarity Igniter Session
