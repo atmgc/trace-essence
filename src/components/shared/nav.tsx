@@ -4,6 +4,7 @@ import { Button } from "../ui/button";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const links = [
   { name: "About", to: "/about" },
@@ -17,21 +18,28 @@ export default function Nav() {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed w-full bg-white flex justify-between items-center py-4 px-[16px] md:px-[100px] h-[84px] z-50 shadow-sm">
+    <nav className="fixed w-full bg-primary flex justify-between items-center py-4 px-[16px] md:px-[100px] h-[86px] z-50 shadow-[0px_4px_30px_0px_#E8E8E840]">
       <Link href="/">
-        <h1 className="font-black text-lg text-[#333333]">The 20% Project</h1>
+        <Image
+          src={"/images/logo.png"}
+          alt=""
+          width={100}
+          height={100}
+          className="w-[70px] h-[59px]"
+        />
       </Link>
 
       {/* Desktop Links */}
-      <ul className="hidden md:flex space-x-8 text-sm font-medium">
-        {links.map(({ name, to }) => {
-          const isActive = pathname === to;
+      <div className="flex items-center gap-8">
+        <ul className="hidden md:flex space-x-10 text-white">
+          {links.map(({ name, to }) => {
+            const isActive = pathname === to;
 
-          return (
-            <li key={to}>
-              <Link
-                href={to}
-                className={`
+            return (
+              <li key={to}>
+                <Link
+                  href={to}
+                  className={`
                   relative px-1 py-1 transition-colors duration-200
                   after:absolute after:bottom-0 after:left-0
                   after:h-[2px] after:w-full after:bg-black
@@ -42,19 +50,20 @@ export default function Nav() {
                       : "text-gray-700 hover:text-black after:scale-x-0 hover:after:scale-x-100"
                   }
                 `}
-              >
-                {name}
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+                >
+                  {name}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
 
-      {/* Join Button for Desktop */}
-      <div className="hidden md:block">
-        <Link href={"/contact"}>
-          <Button>Contact Us</Button>
-        </Link>
+        {/* Join Button for Desktop */}
+        <div className="hidden md:block">
+          <Link href={"/contact"}>
+            <Button variant={"outline"}>Contact Us</Button>
+          </Link>
+        </div>
       </div>
 
       {/* Mobile Hamburger Icon */}

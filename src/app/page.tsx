@@ -10,7 +10,7 @@ import Nav from "@/components/shared/nav";
 export default function Home() {
   return (
     <div>
-      {/* <Nav /> */}
+      <Nav />
       <Hero />
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
         <Intro />

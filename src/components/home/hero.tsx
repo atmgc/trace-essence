@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="h-dvh bg-red-500 flex flex-col items-center">
+    <div className="h-dvh bg-red-500 flex flex-col items-center pt-[86px]">
       <h1 className="font-[600] text-[60px] text-[#3B3B3B]">
         Supportive guidance to reach your goals
       </h1>
