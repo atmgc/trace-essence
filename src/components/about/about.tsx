@@ -1,10 +1,7 @@
 import { StarIcon } from "@/assets/icons";
 import Image from "next/image";
-import React from "react";
 
-type Props = {};
-
-const About = (props: Props) => {
+const About = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-28 mb-20">
       <div>
