@@ -6,6 +6,7 @@ import Nav from "@/components/shared/nav";
 import Identity from "@/components/services/identity";
 import Experiences from "@/components/services/experiences";
 import Wisdom from "@/components/services/wisdom";
+import Engagements from "@/components/services/engagements";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Identity />
         <Experiences />
         <Wisdom />
+        <Engagements />
         <About />
       </div>
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">

@@ -14,26 +14,32 @@ import Link from "next/link";
 
 const wisdom = [
   {
-    title: "Laser Guidance Session",
+    title: "Signature Talks",
     subtitle: "$50",
     content:
       "Your Clarity: Get immediate answers from your spiritual team on one pressing block or decision with actionable next steps.",
     url: "https://calendly.com/tracessence/60-minutes-coaching-session",
+    list: [
+      "Who Am I? The Journey of Self-Discovery.",
+      "Awakening of the Divine Feminine!",
+      "All you need is within you! Tapping into your divinity.",
+    ],
   },
   {
-    title: "Deep Soul Buleprint Reading",
+    title: "Live Channeled Message",
     subtitle: "$95",
     content: "Your Revelation: A comprehensive channeled session revealing:",
     url: "https://calendly.com/tracessence/quantum-identity-shift-8-session-journey",
     list: [
-      "Your core soul gifts & current obstacles",
-      "Hidden opportunities aligned with your path",
-      "Personalized rituals/mantras for rapid shifts",
+      "Real-time divine guidance channeled from your spiritual team/collective consciousness",
+      "Personalized “soul action steps” to accelerate your growth",
+      "Energy clearing for the entire group during the transmission",
+      "Q&A to get specific guidance on your pressing questions",
     ],
   },
 ];
 
-const Wisdom = () => {
+const Engagements = () => {
   return (
     <div className="py-12">
       <div className="flex flex-col">
@@ -45,16 +51,6 @@ const Wisdom = () => {
       </div>
 
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-20">
-        <div className="flex items-center justify-center">
-          <Image
-            src={"/images/wisdom.png"}
-            alt=""
-            className="w-fit h-fit"
-            width={1000}
-            height={1000}
-          />
-        </div>
-
         <div className="grid grid-cols-1 gap-6">
           {wisdom.map((exp, i) => (
             <Card
@@ -65,7 +61,7 @@ const Wisdom = () => {
                 <CardTitle className="text-[#222222] font-[500] text-2xl">
                   {exp.title}
                 </CardTitle>
-                <div className="flex items-center justify-between gap-4">
+                {/* <div className="flex items-center justify-between gap-4">
                   <CardDescription className="text-primary font-[500] text-xl">
                     {exp.subtitle}
                   </CardDescription>
@@ -75,7 +71,7 @@ const Wisdom = () => {
                       Duration: 60 mins
                     </CardDescription>
                   </div>
-                </div>
+                </div> */}
               </CardHeader>
               <CardContent className="flex-1">
                 <p className="text-[#909090] text-sm">{exp.content}</p>
@@ -97,9 +93,19 @@ const Wisdom = () => {
             </Card>
           ))}
         </div>
+
+        <div className="flex items-center justify-center">
+          <Image
+            src={"/images/speaker.png"}
+            alt=""
+            className="w-fit h-fit"
+            width={1000}
+            height={1000}
+          />
+        </div>
       </div>
     </div>
   );
 };
 
-export default Wisdom;
+export default Engagements;
