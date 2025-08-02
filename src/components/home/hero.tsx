@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Star } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -19,11 +20,26 @@ const Hero = () => {
         <Image
           src={"/images/hero.png"}
           alt="hero"
-          className="w-fit h-fit z-10"
+          className="w-[498px] h-[552px] z-10"
           width={1000}
           height={1000}
         />
 
+        <Card className="absolute top-[40%] border-none right-[70%] shadow-[0px_4px_30px_0px_#EEEEEEEE]">
+          <CardContent className="space-y-1.5">
+            <div className="flex items-center justify-between gap-3.5">
+              <div className="flex gap-0.5">
+                <Star />
+                <Star />
+                <Star />
+                <Star />
+                <Star />
+              </div>
+              <p className="text-[#222222] font-[500] text-xl">5.0</p>
+            </div>
+            <p className="text-[#909090] text-xs">From 10+ reviews</p>
+          </CardContent>
+        </Card>
         <Card className="absolute top-[10%] left-[70%] bg-white rounded-[15px] border-none max-w-[339px] shadow-[0px_4px_30px_0px_#EEEEEE40]">
           <CardHeader>
             <Image
@@ -43,7 +59,6 @@ const Hero = () => {
             <CardDescription>~ Sarah Johnson</CardDescription>
           </CardContent>
         </Card>
-
         <Card className="absolute bottom-[10%] left-[70%] w-[300px] border-none shadow-[0px_4px_30px_0px_#EEEEEEEE]">
           <CardContent>
             <CardTitle>Core Services</CardTitle>
@@ -61,7 +76,6 @@ const Hero = () => {
             </div>
           </CardContent>
         </Card>
-
         <div className="absolute bottom-0 left-0">
           <HeroLeft />
         </div>
