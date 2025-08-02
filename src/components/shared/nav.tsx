@@ -41,12 +41,12 @@ export default function Nav() {
                   className={`
                   relative px-1 py-1 transition-colors duration-200
                   after:absolute after:bottom-0 after:left-0
-                  after:h-[2px] after:w-full after:bg-black
+                  after:h-[2px] after:w-full after:bg-white
                   after:origin-left after:transition-transform after:duration-300
                   ${
                     isActive
-                      ? "text-black after:scale-x-100"
-                      : "text-gray-700 hover:text-black after:scale-x-0 hover:after:scale-x-100"
+                      ? "text-white after:scale-x-100"
+                      : "text-white/80 hover:text-white after:scale-x-0 hover:after:scale-x-100"
                   }
                 `}
                 >
