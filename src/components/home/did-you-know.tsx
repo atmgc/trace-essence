@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const DidYouKnow = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between gap-4 py-[20px] px-[16px] md:px-[100px] bg-black/40">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-4 py-[20px] px-[16px] md:px-[100px] bg-black/80 tagline-background">
       <div>
         <p className="text-5xl mb-6 text-white">Do you...</p>
         <p className="text-xl text-[#F8F8F8]">...need IMMEDIATE ANSWERS</p>
