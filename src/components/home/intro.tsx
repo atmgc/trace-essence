@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-7 bg-red-500">
       <Image
         src="/images/intro.png"
         alt="intro image"

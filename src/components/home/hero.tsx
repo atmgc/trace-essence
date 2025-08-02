@@ -1,20 +1,73 @@
+import { HeroLeft, HeroRight } from "@/assets/icons";
 import Image from "next/image";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 const Hero = () => {
   return (
-    <div className="h-dvh bg-red-500 flex flex-col items-center pt-[86px]">
+    <div className="h-[100vh] flex flex-col items-center bg-[#860D8405]">
       <h1 className="font-[600] text-[60px] text-[#3B3B3B]">
         Supportive guidance to reach your goals
       </h1>
 
-      <div>
+      <div className="flex-1 relative w-full flex items-center justify-center">
         <Image
           src={"/images/hero.png"}
           alt="hero"
-          className="w-[498px] h-[552px]"
+          className="w-fit h-fit z-10"
           width={1000}
           height={1000}
         />
+
+        <Card className="absolute top-[10%] left-[70%] bg-white rounded-[15px] border-none max-w-[339px] shadow-[0px_4px_30px_0px_#EEEEEE40]">
+          <CardHeader>
+            <Image
+              src={"/images/apostrophe.png"}
+              alt="index"
+              width={50}
+              height={50}
+              className="w-[24px] h-[24px]"
+            />
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <CardDescription>
+              "My Clarity Igniter Session gave me the courage to leave my
+              unfulfilling career path. Tracy’s intuitive guidance helped me
+              discover my true passion – I’ve never felt more alive!"
+            </CardDescription>
+            <CardDescription>~ Sarah Johnson</CardDescription>
+          </CardContent>
+        </Card>
+
+        <Card className="w-[300px]">
+          <CardContent>
+            <CardTitle>Core Services</CardTitle>
+            <div className="space-y-3">
+              <div className="bg-[#FFE2FF] px-7 py-2 rounded-[99px]">
+                <p className="text-[#232323] text-sm">
+                  Clarity Igniter Session
+                </p>
+              </div>
+              <div className="bg-[#FFE2FF] px-7 py-2 rounded-[99px]">
+                <p className="text-[#232323] text-sm">
+                  Clarity Igniter Session
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        <div className="absolute bottom-0 left-0">
+          <HeroLeft />
+        </div>
+        <div className="absolute bottom-0 right-0">
+          <HeroRight />
+        </div>
       </div>
     </div>
   );
