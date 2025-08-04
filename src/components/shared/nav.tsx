@@ -68,9 +68,9 @@ export default function Nav() {
       {/* Mobile Hamburger Icon */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden text-gray-700 z-50"
+        className="md:hidden text-white z-50"
       >
-        {isOpen ? <X size={24} /> : <Menu size={24} />}
+        {isOpen ? <X color="#000000" size={24} /> : <Menu size={24} />}
       </button>
 
       {/* Mobile Menu */}
