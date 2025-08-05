@@ -26,7 +26,7 @@ const services = [
 
 const OurService = () => {
   return (
-    <div className="space-y-6 md:space-y-12 pt-[48px] pb-[92px]">
+    <div className="space-y-3 md:space-y-12 pt-[48px] pb-[48px] md:pb-[92px]">
       <div className="flex items-center justify-between">
         <div>
           <div className="flex items-center gap-4">
@@ -38,11 +38,11 @@ const OurService = () => {
         <Button className="hidden md:block">More Information</Button>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6">
         {services.map((service, index) => (
           <Card
             key={index}
-            className="bg-[#F8F8F8] hover:bg-[#FFE2FF] transition-colors duration-300 ease-in-out"
+            className="bg-[#F8F8F8] hover:bg-[#FFE2FF] transition-colors duration-300 ease-in-out border-none shadow-none"
           >
             <CardHeader>
               <Image

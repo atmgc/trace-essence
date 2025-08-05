@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
-      <div className="relative">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-7 py-4">
+      <div className="hidden md:block relative">
         <Image
           src="/images/intro.png"
           alt="intro image"
@@ -37,8 +37,8 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="space-y-11 col-span-1 md:col-span-2">
-        <p className="mt-[100px]">
+      <div className="space-y-4 md:space-y-11 col-span-1 md:col-span-2">
+        <p className="md:mt-[100px]">
           Are you tired of feeling disconnected from the woman you’re meant to
           be—trapped by self-doubt, societal expectations, or limiting beliefs?
           It’s time to break free and step into your most empowered, authentic
@@ -62,6 +62,40 @@ const Intro = () => {
           purposeful, and unapologetically yours. The first step begins here.
           Are you ready?
         </p>
+      </div>
+
+      <div className="md:hidden flex items-center justify-center relative">
+        <Image
+          src="/images/intro.png"
+          alt="intro image"
+          className="w-fit h-fit"
+          width={1000}
+          height={1000}
+        />
+        <div className="absolute top-[10%] left-[-10%]">
+          <Image
+            src={"/images/leaf-xl.png"}
+            alt="leaf image"
+            width={100}
+            height={100}
+          />
+        </div>
+        <div className="absolute bottom-[2%] left-[-20%]">
+          <Image
+            src={"/images/leaf-md.png"}
+            alt="leaf image"
+            width={70}
+            height={70}
+          />
+        </div>
+        <div className="absolute top-[50%] right-[0%]">
+          <Image
+            src={"/images/leaf-sm.png"}
+            alt="leaf image"
+            width={50}
+            height={50}
+          />
+        </div>
       </div>
     </div>
   );

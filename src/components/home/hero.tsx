@@ -18,7 +18,7 @@ import { Star } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="h-[100vh] flex flex-col items-center bg-[#860D8405] px-4">
+    <div className="h-[calc(100vh-84px)] md:h-[100vh] flex flex-col items-center bg-[#860D8405] px-4">
       <h1 className="font-[600] text-[30px] md:text-[60px] text-[#3B3B3B] mt-16 text-center">
         Supportive{" "}
         <span className="relative">
@@ -30,7 +30,7 @@ const Hero = () => {
         to reach your goals
       </h1>
 
-      <div className="flex-1 relative w-full flex items-center justify-center bg-red-500">
+      <div className="flex-1 relative w-full flex items-end justify-center">
         <Image
           src={"/images/hero.png"}
           alt="hero"
@@ -81,7 +81,7 @@ const Hero = () => {
           <TestimonialArrow />
         </div>
 
-        <Card className="hidden md:block absolute bottom-[10%] left-[70%] w-[300px] border-none shadow-[0px_4px_30px_0px_#EEEEEEEE]">
+        <Card className="absolute bottom-[60%] md:bottom-[10%] left-[35%] md:left-[70%] md:w-[300px] border-none shadow-[0px_4px_30px_0px_#EEEEEEEE]">
           <CardContent>
             <CardTitle>Core Services</CardTitle>
             <div className="space-y-3 mt-5">
