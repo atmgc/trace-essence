@@ -18,7 +18,7 @@ import { Star } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="h-[100vh] flex flex-col items-center bg-[#860D8405]">
+    <div className="h-[100vh] flex flex-col items-center bg-[#860D8405] px-4">
       <h1 className="font-[600] text-[30px] md:text-[60px] text-[#3B3B3B] mt-16 text-center">
         Supportive{" "}
         <span className="relative">
@@ -30,16 +30,16 @@ const Hero = () => {
         to reach your goals
       </h1>
 
-      <div className="flex-1 relative w-full flex items-center justify-center">
+      <div className="flex-1 relative w-full flex items-center justify-center bg-red-500">
         <Image
           src={"/images/hero.png"}
           alt="hero"
-          className="w-[498px] h-[552px] z-10"
+          className="md:w-[498px] md:h-[552px] z-10"
           width={1000}
           height={1000}
         />
 
-        <Card className="absolute top-[40%] border-none right-[70%] shadow-[0px_4px_30px_0px_#EEEEEEEE]">
+        <Card className="absolute top-[10%] md:top-[40%] border-none right-[50%] md:right-[70%] shadow-[0px_4px_30px_0px_#EEEEEEEE]">
           <CardContent className="space-y-1.5">
             <div className="flex items-center justify-between gap-3.5">
               <div className="flex gap-0.5">
@@ -58,7 +58,7 @@ const Hero = () => {
           <GuidianceArrow />
         </div>
 
-        <Card className="absolute top-[10%] left-[70%] bg-white rounded-[15px] border-none max-w-[339px] shadow-[0px_4px_30px_0px_#EEEEEE40]">
+        <Card className="hidden md:block absolute top-[10%] left-[70%] bg-white rounded-[15px] border-none max-w-[339px] shadow-[0px_4px_30px_0px_#EEEEEE40]">
           <CardHeader>
             <Image
               src={"/images/apostrophe.png"}
@@ -81,7 +81,7 @@ const Hero = () => {
           <TestimonialArrow />
         </div>
 
-        <Card className="absolute bottom-[10%] left-[70%] w-[300px] border-none shadow-[0px_4px_30px_0px_#EEEEEEEE]">
+        <Card className="hidden md:block absolute bottom-[10%] left-[70%] w-[300px] border-none shadow-[0px_4px_30px_0px_#EEEEEEEE]">
           <CardContent>
             <CardTitle>Core Services</CardTitle>
             <div className="space-y-3 mt-5">
@@ -102,10 +102,10 @@ const Hero = () => {
           <CoreArrow />
         </div>
 
-        <div className="absolute bottom-0 left-0">
+        <div className="hidden md:block absolute bottom-0 left-0">
           <HeroLeft />
         </div>
-        <div className="absolute bottom-0 right-0">
+        <div className="hidden md:block absolute bottom-0 right-0">
           <HeroRight />
         </div>
       </div>
