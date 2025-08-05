@@ -3,16 +3,16 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-28 mb-20">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-12 md:mt-28 mb-20">
       <div>
         <div className="flex items-center gap-4">
           <StarIcon />
           <p className="text-base text-primary">ABOUT</p>
         </div>
-        <h1 className="text-5xl text-balance text-[#222222] mt-3.5">
+        <h1 className="text-2xl md:text-5xl text-balance text-[#222222] mt-3.5">
           You are the one we’ve been waiting for...
         </h1>
-        <p className="text-xl text-balance text-[#3B3B3B] mt-6">
+        <p className="text-base md:text-xl text-balance text-[#3B3B3B] mt-3 md:mt-6">
           For 10+ years, Tracy’s been turning “Who am I?!” crises into “Hell
           yes, THIS is me!” breakthroughs with her irresistible blend of
           spiritual wisdom, actionable coaching strategies, and contagious
@@ -49,7 +49,7 @@ const About = () => {
             height={70}
           />
         </div>
-        <div className="absolute top-[40%] right-[-10%]">
+        <div className="hidden md:blockabsolute top-[40%] right-[-10%]">
           <Image
             src={"/images/leaf-sm.png"}
             alt="leaf image"
