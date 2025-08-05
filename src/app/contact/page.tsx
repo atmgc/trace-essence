@@ -3,9 +3,7 @@ import Footer from "@/components/shared/footer";
 import Nav from "@/components/shared/nav";
 import React from "react";
 
-type Props = {};
-
-const ContactPage = (props: Props) => {
+const ContactPage = () => {
   return (
     <div>
       <Nav />
