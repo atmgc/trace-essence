@@ -59,23 +59,23 @@ const Services = () => {
           <StarIcon />
           <p className="text-base text-primary uppercase">Our Services</p>
         </div>
-        <h1 className="text-5xl">Service Selection Guide</h1>
-        <div className="absolute bottom-[50%] left-[-10%]">
+        <h1 className="text-2xl md:text-5xl">Service Selection Guide</h1>
+        <div className="hidden md:block absolute bottom-[50%] left-[-10%]">
           <LeftSlash />
         </div>
       </div>
 
-      <div className="mt-12 flex flex-wrap justify-center gap-[25px]">
+      <div className="mt-6 md:mt-12 flex flex-wrap justify-center gap-5 md:gap-[25px]">
         {guide.map((item, i) => (
           <Card
             key={i}
             className="flex flex-col bg-[#F8F8F8] rounded-[15px] shadow-none border-none max-w-[396px]"
           >
             <CardHeader>
-              <CardTitle className="text-[#222222] font-[500] text-xl">
+              <CardTitle className="text-[#222222] font-[500] text-base md:text-xl">
                 {item.title}
               </CardTitle>
-              <CardDescription className="text-[#3B3B3B] text-sm mt-2">
+              <CardDescription className="text-[#3B3B3B] text-sm mt-0 md:mt-2">
                 {item.subtitle}
               </CardDescription>
 

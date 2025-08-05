@@ -45,13 +45,13 @@ const Engagements = () => {
           <StarIcon />
           <p className="text-base text-primary uppercase">Our Services</p>
         </div>
-        <h1 className="text-5xl">Speaking Engagements</h1>
-        <div className="absolute bottom-[50%] right-[-15%]">
+        <h1 className="text-2xl md:text-5xl">Speaking Engagements</h1>
+        <div className="hidden md:block absolute bottom-[50%] right-[-15%]">
           <RightSlash />
         </div>
       </div>
 
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-20">
+      <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20">
         <div className="grid grid-cols-1 gap-6">
           {wisdom.map((exp, i) => (
             <Card
@@ -59,7 +59,7 @@ const Engagements = () => {
               className="flex flex-col h-full bg-[#F8F8F8] rounded-[15px] shadow-none border-none"
             >
               <CardHeader>
-                <CardTitle className="text-[#222222] font-[500] text-2xl">
+                <CardTitle className="text-[#222222] font-[500] text-xl md:text-2xl">
                   {exp.title}
                 </CardTitle>
               </CardHeader>

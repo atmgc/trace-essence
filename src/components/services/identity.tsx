@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Identity = () => {
   return (
-    <div className="relative grid grid-cols-1 md:grid-cols-2 gap-20 py-20">
+    <div className="relative grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 pt-10 md:pt-20 pb-20">
       <div className="z-10">
         <Image
           src={"/images/identity.png"}

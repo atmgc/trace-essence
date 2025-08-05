@@ -41,10 +41,10 @@ const Wisdom = () => {
           <StarIcon />
           <p className="text-base text-primary uppercase">Our Services</p>
         </div>
-        <h1 className="text-5xl">Intuitive Wisdom Downloads</h1>
+        <h1 className="text-2xl md:text-5xl">Intuitive Wisdom Downloads</h1>
       </div>
 
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-20">
+      <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20">
         <div className="flex items-center justify-center">
           <Image
             src={"/images/wisdom.png"}
@@ -62,7 +62,7 @@ const Wisdom = () => {
               className="flex flex-col h-full bg-[#F8F8F8] rounded-[15px] shadow-none border-none"
             >
               <CardHeader>
-                <CardTitle className="text-[#222222] font-[500] text-2xl">
+                <CardTitle className="text-[#222222] font-[500] text-xl md:text-2xl">
                   {exp.title}
                 </CardTitle>
                 <div className="flex items-center justify-between gap-4">

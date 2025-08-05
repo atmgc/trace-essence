@@ -42,17 +42,17 @@ const Experiences = () => {
           <StarIcon />
           <p className="text-base text-primary uppercase">Our Services</p>
         </div>
-        <h1 className="text-5xl">Coaching Experiences</h1>
+        <h1 className="text-2xl md:text-5xl">Coaching Experiences</h1>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mt-6 md:mt-12">
         {experiences.map((exp, i) => (
           <Card
             key={i}
             className="flex flex-col h-full bg-[#F8F8F8] rounded-[15px] shadow-none border-none"
           >
             <CardHeader>
-              <CardTitle className="text-[#222222] font-[500] text-2xl">
+              <CardTitle className="text-[#222222] font-[500] text-xl md:text-2xl">
                 {exp.title}
               </CardTitle>
               <div className="flex items-center justify-between gap-4">
