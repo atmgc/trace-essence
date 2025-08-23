@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Quote } from "lucide-react";
+import Image from "next/image";
 
 const experiences = [
   {
@@ -62,8 +62,14 @@ const Experiences = () => {
             key={index}
             className="bg-white rounded-[15px] shadow-none border-none"
           >
-            <CardHeader className="justify-end">
-              <Quote fill="#82181a" />
+            <CardHeader>
+              <Image
+                src={"/images/apostrophe.png"}
+                alt="index"
+                width={50}
+                height={50}
+                className="w-[38px] h-[38px]"
+              />
             </CardHeader>
             <CardContent className="space-y-6">
               <CardDescription>{experience.experience}</CardDescription>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "../ui/button";
 import {
   Card,
@@ -6,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { StarIcon, StarWhiteIcon } from "@/assets/icons";
+import { StarIcon } from "@/assets/icons";
 
 const services = [
   {
@@ -41,12 +42,16 @@ const OurService = () => {
         {services.map((service, index) => (
           <Card
             key={index}
-            className="bg-[#F8F8F8] hover:bg-red-900/10 transition-colors duration-300 ease-in-out border-none shadow-none"
+            className="bg-[#F8F8F8] hover:bg-[#FFE2FF] transition-colors duration-300 ease-in-out border-none shadow-none"
           >
             <CardHeader>
-              <div className="flex items-center gap-1 p-4 bg-primary w-fit rounded-full">
-                <StarWhiteIcon />
-              </div>
+              <Image
+                src={"/images/service-icon.png"}
+                alt="index"
+                width={50}
+                height={50}
+                className="w-[50px] h-[50px]"
+              />
             </CardHeader>
             <CardContent>
               <CardTitle>{service.title}</CardTitle>

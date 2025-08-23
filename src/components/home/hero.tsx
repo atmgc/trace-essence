@@ -14,7 +14,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Quote, Star } from "lucide-react";
+import { Star } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -43,11 +43,11 @@ const Hero = () => {
           <CardContent className="space-y-1.5">
             <div className="flex items-center justify-between gap-3.5">
               <div className="flex gap-0.5">
-                <Star color="#82181a" fill="#82181a" size={24} />
-                <Star color="#82181a" fill="#82181a" size={24} />
-                <Star color="#82181a" fill="#82181a" size={24} />
-                <Star color="#82181a" fill="#82181a" size={24} />
-                <Star color="#82181a" fill="#82181a" size={24} />
+                <Star color="#860D84" fill="#860D84" size={24} />
+                <Star color="#860D84" fill="#860D84" size={24} />
+                <Star color="#860D84" fill="#860D84" size={24} />
+                <Star color="#860D84" fill="#860D84" size={24} />
+                <Star color="#860D84" fill="#860D84" size={24} />
               </div>
               <p className="text-[#222222] font-[500] text-xl">5.0</p>
             </div>
@@ -60,7 +60,13 @@ const Hero = () => {
 
         <Card className="hidden md:block absolute top-[10%] left-[70%] bg-white rounded-[15px] border-none max-w-[339px] shadow-[0px_4px_30px_0px_#EEEEEE40]">
           <CardHeader>
-            <Quote fill="#82181a" />
+            <Image
+              src={"/images/apostrophe.png"}
+              alt="index"
+              width={50}
+              height={50}
+              className="w-[24px] h-[24px]"
+            />
           </CardHeader>
           <CardContent className="space-y-4">
             <CardDescription>
@@ -79,12 +85,12 @@ const Hero = () => {
           <CardContent>
             <CardTitle>Core Services</CardTitle>
             <div className="space-y-3 mt-5">
-              <div className="bg-red-900/10 px-7 py-2 rounded-[99px]">
+              <div className="bg-[#FFE2FF] px-7 py-2 rounded-[99px]">
                 <p className="text-[#232323] text-sm">
                   Clarity Igniter Session
                 </p>
               </div>
-              <div className="bg-red-900/10 px-7 py-2 rounded-[99px]">
+              <div className="bg-[#FFE2FF] px-7 py-2 rounded-[99px]">
                 <p className="text-[#232323] text-sm">
                   Clarity Igniter Session
                 </p>
