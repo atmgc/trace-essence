@@ -106,6 +106,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          src="https://assets.calendly.com/assets/external/widget.js"
+          type="text/javascript"
+          async
+        ></script>
+      </head>
       <body className={`${euclid.className} antialiased`}>{children}</body>
     </html>
   );

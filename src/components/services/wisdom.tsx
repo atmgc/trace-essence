@@ -18,13 +18,13 @@ const wisdom = [
     subtitle: "$50",
     content:
       "Your Clarity: Get immediate answers from your spiritual team on one pressing block or decision with actionable next steps.",
-    url: "https://calendly.com/tracessence/60-minutes-coaching-session",
+    url: "https://calendly.com/tracessence/clarity-igniter-session-clone",
   },
   {
     title: "Deep Soul Buleprint Reading",
     subtitle: "$95",
     content: "Your Revelation: A comprehensive channeled session revealing:",
-    url: "https://calendly.com/tracessence/quantum-identity-shift-8-session-journey",
+    url: "https://calendly.com/tracessence/quantum-identity-shift-8-session-journey-clone",
     list: [
       "Your core soul gifts & current obstacles",
       "Hidden opportunities aligned with your path",

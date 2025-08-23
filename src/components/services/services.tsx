@@ -18,7 +18,7 @@ const guide = [
     price: "$50",
     description:
       "Best for: Quick decisions, spiritual yes/no guidance, or when stuck at a crossroads.",
-    url: "https://calendly.com/tracessence/quantum-identity-shift-8-session-journey",
+    url: "https://calendly.com/tracessence/clarity-igniter-session-clone",
   },
   {
     title: "If you feel “LOST” in your IDENTITY/PURPOSE",
@@ -26,7 +26,7 @@ const guide = [
     price: "$95",
     description:
       "Best for: Gaining clarity on your true self, purpose, and next steps.",
-    url: "https://calendly.com/tracessence/quantum-identity-shift-8-session-journey",
+    url: "https://calendly.com/tracessence/60-minutes-coaching-session",
   },
   {
     title: "If you crave COMMUNITY + SPIRITUAL GROWTH",
