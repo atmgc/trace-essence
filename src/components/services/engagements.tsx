@@ -16,7 +16,7 @@ const wisdom = [
     subtitle: "$50",
     content:
       "Your Clarity: Get immediate answers from your spiritual team on one pressing block or decision with actionable next steps.",
-    url: "https://calendly.com/tracessence/60-minutes-coaching-session",
+    url: "https://calendly.com/tracessence/deep-soul-blueprint-reading-clone",
     list: [
       "Who Am I? The Journey of Self-Discovery.",
       "Awakening of the Divine Feminine!",
@@ -27,7 +27,7 @@ const wisdom = [
     title: "Live Channeled Message",
     subtitle: "$95",
     content: "Your Revelation: A comprehensive channeled session revealing:",
-    url: "https://calendly.com/tracessence/quantum-identity-shift-8-session-journey",
+    url: "https://calendly.com/tracessence/signature-talk-clone",
     list: [
       "Real-time divine guidance channeled from your spiritual team/collective consciousness",
       "Personalized “soul action steps” to accelerate your growth",
