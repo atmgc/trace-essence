@@ -19,7 +19,7 @@ export default function Home() {
         <Experiences />
         <Wisdom />
         <Engagements />
-        <Services />
+        {/* <Services /> */}
         <Contact />
       </div>
       <Footer />

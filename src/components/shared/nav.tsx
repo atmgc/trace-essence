@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 const links = [
+  { name: "Home", to: "/" },
   { name: "About", to: "/about" },
   { name: "Services", to: "/services" },
   // { name: "Contact Us", to: "/contact" },

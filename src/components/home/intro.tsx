@@ -39,28 +39,20 @@ const Intro = () => {
 
       <div className="space-y-4 md:space-y-11 col-span-1 md:col-span-2">
         <p className="md:mt-[100px]">
-          Are you tired of feeling disconnected from the woman you’re meant to
-          be—trapped by self-doubt, societal expectations, or limiting beliefs?
-          It’s time to break free and step into your most empowered, authentic
-          self. Our transformative identity coaching merges deep spiritual
-          insight with practical guidance, helping you peel back the layers of
-          conditioning and rediscover your true essence. Together, we’ll uncover
-          the subconscious patterns keeping you stuck, redefine your sense of
-          worth, and align your life with your deepest purpose. This isn’t just
-          about change—it’s about reclaiming your power and designing a future
-          that reflects who you truly are, not who the world says you should be.
+          You don’t have to keep feeling tired, disconnected, or overwhelmed by
+          the weight of who you’ve been trying to be. This journey invites you
+          to release the self-doubt, pressure, and limiting beliefs that have
+          drained your energy and kept you small, so you can finally step into
+          who you’re truly meant to be.
         </p>
         <p>
-          Imagine a life where every decision flows from clarity, your
-          relationships feel deeply fulfilling, and your path aligns
-          effortlessly with your soul’s calling. This journey is more than
-          self-discovery—it’s a radical transformation. Through personalized
-          coaching, you’ll silence the inner critic, cultivate unshakable
-          confidence, and create a life that’s not just successful, but
-          meaningful. You deserve to thrive—not just survive. Let’s awaken the
-          extraordinary woman within you and build a future that’s bold,
-          purposeful, and unapologetically yours. The first step begins here.
-          Are you ready?
+          Through spiritual insight and practical identity coaching, you’ll
+          uncover the subconscious patterns behind the exhaustion, reclaim your
+          sense of worth, and realign your life with your deeper purpose. This
+          is more than self-improvement—it’s a full transformation into clarity,
+          confidence, and soul-led living. If you’re ready to move beyond
+          survival mode and rise into the extraordinary version of you, this is
+          your moment.
         </p>
       </div>
 

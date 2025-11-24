@@ -2,10 +2,11 @@
 // import { push, ref } from "firebase/database";
 import { useState } from "react";
 import Link from "next/link";
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import Image from "next/image";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
+import { TiktokIcon } from "@/assets/icons";
 // import { toast } from "sonner";
 // import { database } from "../../firebase";
 
@@ -43,34 +44,31 @@ const Footer = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-[40px] py-[50px] px-[16px] md:px-[100px] bg-primary">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] py-[50px] px-[16px] md:px-[100px] bg-primary">
         <div>
-          <Image src={"/images/logo.png"} alt="" width={100} height={100} />
+          <Link href="/">
+            <Image src={"/images/logo.png"} alt="" width={100} height={100} />
+          </Link>
           <div className="flex gap-[8px] mt-9">
             <div className="flex justify-center items-center w-[32px] h-[32px] bg-white rounded-full">
               <Link
-                href={"https://linkedin.com/company/twentypercentproject"}
+                href={"https://www.youtube.com/@traceessence"}
                 target="_blank"
               >
-                <Facebook width={14} height={14} />
-              </Link>
-            </div>
-            <div className="flex justify-center items-center w-[32px] h-[32px] bg-white rounded-full">
-              <Link href={"https://x.com/20PctProject"} target="_blank">
-                <Twitter width={14} height={14} />
+                <Youtube width={14} height={14} />
               </Link>
             </div>
             <div className="flex justify-center items-center w-[32px] h-[32px] bg-white rounded-full">
               <Link
-                href={"https://linkedin.com/company/twentypercentproject"}
+                href={"https://www.tiktok.com/@divine_teaching"}
                 target="_blank"
               >
-                <Linkedin width={14} height={14} />
+                <TiktokIcon />
               </Link>
             </div>
             <div className="flex justify-center items-center w-[32px] h-[32px] bg-white rounded-full">
               <Link
-                href={"https://linkedin.com/company/twentypercentproject"}
+                href={" https://www.instagram.com/trace_essence/"}
                 target="_blank"
               >
                 <Instagram width={14} height={14} />
@@ -96,7 +94,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <h1 className="font-[500] text-[20px] tracking-[-0.04em] text-white">
             Contact Details
           </h1>
@@ -107,9 +105,9 @@ const Footer = () => {
             <li>Houston, Texas</li>
             <li></li>
           </ul>
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
           <h1 className="font-[500] text-[20px] tracking-[-0.04em] text-white">
             Subscribe To Newsletter
           </h1>
@@ -124,14 +122,12 @@ const Footer = () => {
 
             <Button variant={"outline"}>Subscribe</Button>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="flex items-center justify-between bg-primary border-t border-[#F0FFD9] py-[8px] px-[16px] md:px-[100px] text-white pt-6 pb-6">
         <div className="flex flex-col md:flex-row gap-x-5">
           <p>Copyright © 2025 Tracessense. All Rights Reserved.</p>
-          <p className="hidden md:block">|</p>
-          <p>Design by Automagic</p>
         </div>
         <div className="flex flex-col md:flex-row gap-5">
           <Link href="/terms-and-conditions" className="whitespace-nowrap">
