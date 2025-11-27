@@ -25,7 +25,7 @@ const wisdom = [
     subtitle: "$95",
     content:
       "In this 1-hour channeled session, you’ll uncover your core soul gifts, the obstacles blocking your next level, and the hidden opportunities aligned with your path. You’ll receive personalized rituals or mantras for rapid shifts, along with clear actions to help you move forward with confidence and alignment.",
-    url: "https://calendly.com/tracessence/quantum-identity-shift-8-session-journey-clone",
+    url: "https://calendly.com/tracessence/signature-talk-clone",
     list: [],
   },
 ];
