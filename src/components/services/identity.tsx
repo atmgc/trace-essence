@@ -4,11 +4,11 @@ import Image from "next/image";
 const Identity = () => {
   return (
     <div className="relative grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 pt-10 md:pt-20 pb-20">
-      <div className="z-10">
+      <div className="z-10 rounded-lg">
         <Image
           src={"/images/identity.png"}
           alt=""
-          className="w-full h-full"
+          className="w-full h-full rounded-lg"
           width={1000}
           height={1000}
         />

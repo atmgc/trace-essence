@@ -70,8 +70,8 @@ const Hero = () => {
           </CardHeader>
           <CardContent className="space-y-4">
             <CardDescription>
-              &quot;My Clarity Igniter Session gave me the courage to leave my
-              unfulfilling career path. Tracy’s intuitive guidance helped me
+              &quot;My Identity Coaching Sessions gave me the courage to leave
+              my unfulfilling career path. Tracy’s intuitive guidance helped me
               discover my true passion – I’ve never felt more alive!&quot;
             </CardDescription>
             <CardDescription>~ Sarah Johnson</CardDescription>
@@ -87,12 +87,12 @@ const Hero = () => {
             <div className="space-y-3 mt-5">
               <div className="bg-[#FFE2FF] px-7 py-2 rounded-[99px]">
                 <p className="text-[#232323] text-sm">
-                  Clarity Igniter Session
+                  Identity Coaching - Single Session
                 </p>
               </div>
               <div className="bg-[#FFE2FF] px-7 py-2 rounded-[99px]">
                 <p className="text-[#232323] text-sm">
-                  Clarity Igniter Session
+                  Identity Coaching - 8 Sessions
                 </p>
               </div>
             </div>

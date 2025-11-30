@@ -12,7 +12,7 @@ import Image from "next/image";
 const experiences = [
   {
     experience:
-      "My Clarity Igniter Session gave me the courage to leave my unfulfilling career path. Tracy’s intuitive guidance helped me discover my true passion – I’ve never felt more alive!",
+      "My Identity Coaching Sessions gave me the courage to leave my unfulfilling career path. Tracy’s intuitive guidance helped me discover my true passion – I’ve never felt more alive!",
     name: "~ Sarah Johnson",
   },
   {
@@ -27,7 +27,7 @@ const experiences = [
   },
   {
     experience:
-      "The Clarity Igniter Session was exactly what I needed. Tracy’s compassionate approach helped me uncover the blocks holding me back, and I’m now on a path that feels true to who I am.",
+      "The Channeled Message Reading was exactly what I needed. Tracy’s compassionate approach helped me uncover the blocks holding me back, and I’m now on a path that feels true to who I am.",
     name: "~ Megan Brown",
   },
   {
@@ -37,7 +37,7 @@ const experiences = [
   },
   {
     experience:
-      "I can’t thank Tracy enough for her guidance. The Clarity Igniter Session opened my eyes to possibilities I never considered. I’m now living a life aligned with my true self.",
+      "I can’t thank Tracy enough for her guidance. The Identity Coaching Sessions Session opened my eyes to possibilities I never considered. I’m now living a life aligned with my true self.",
     name: "~ Rachel Green",
   },
 ];
