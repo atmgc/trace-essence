@@ -15,6 +15,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Star } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -28,6 +29,13 @@ const Hero = () => {
           </span>
         </span>{" "}
         to reach your goals
+      </h1>
+
+      <h1 className="hidden md:block mt-[70px] text-[30px]">
+        Looking for support?{" "}
+        <Link href="/services" className="underline underline-offset-4">
+          Book an appointment
+        </Link>
       </h1>
 
       <div className="flex-1 relative w-full flex items-end justify-center">
