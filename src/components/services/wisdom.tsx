@@ -34,15 +34,36 @@ const email = [
   {
     title: "One Question Email Channeled Reading",
     subtitle: "$35",
-    content:
-      "Receive intuitive guidance and insight on one priority question of your choice. Your reading will be delivered to your email inbox within 72 hours and will include any messages, guidance, and next steps that come through regarding your question. Please note that follow up questions are not included and will require the booking of an additional service.",
+    // use a React fragment so we can insert a line break before the last sentence
+    content: (
+      <>
+        Receive intuitive guidance and insight on one priority question of your
+        choice. Your reading will be delivered to your email inbox within 72
+        hours and will include any messages, guidance, and next steps that come
+        through regarding your question.
+        <br />
+        <br />
+        Please note that follow up questions are not included and will require
+        the booking of an additional service.
+      </>
+    ),
     url: "https://calendly.com/tracessence/one-question-email-reading",
   },
   {
     title: "Three Question Email Channeled Reading",
     subtitle: "$65",
-    content:
-      "Receive intuitive guidance and insight on up to three questions of your choice. Your reading will be delivered to your email inbox within 96 hours and will include any messages, guidance, and next steps that come through for each question submitted. Please note that follow up questions are not included and will require the booking of an additional service.",
+    content: (
+      <>
+        Receive intuitive guidance and insight on up to three questions of your
+        choice. Your reading will be delivered to your email inbox within 96
+        hours and will include any messages, guidance, and next steps that come
+        through for each question submitted.
+        <br />
+        <br />
+        Please note that follow up questions are not included and will require
+        the booking of an additional service.
+      </>
+    ),
     url: "https://calendly.com/tracessence/three-questions-email-reading",
     list: [],
   },
