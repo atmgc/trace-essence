@@ -20,6 +20,14 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="h-[calc(100vh-84px)] md:h-[100vh] flex flex-col items-center bg-[#860d8436] px-4">
+      <h1 className="block md:hidden mt-[20px] text-[20px]">
+        <Link
+          href="/services"
+          className="inline-block px-4 py-2 mt-2 bg-gradient-to-r from-purple-500 to-purple-700 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-purple-800 transition"
+        >
+          Book an appointment
+        </Link>
+      </h1>
       <h1 className="font-[600] text-[30px] md:text-[60px] text-[#3B3B3B] mt-16 text-center">
         Supportive{" "}
         <span className="relative">

@@ -30,6 +30,24 @@ const wisdom = [
   },
 ];
 
+const email = [
+  {
+    title: "One Question Email Channeled Reading",
+    subtitle: "$35",
+    content:
+      "Receive intuitive guidance and insight on one priority question of your choice. Your reading will be delivered to your email inbox within 72 hours and will include any messages, guidance, and next steps that come through regarding your question. Please note that follow up questions are not included and will require the booking of an additional service.",
+    url: "https://calendly.com/tracessence/one-question-email-reading",
+  },
+  {
+    title: "Three Question Email Channeled Reading",
+    subtitle: "$65",
+    content:
+      "Receive intuitive guidance and insight on up to three questions of your choice. Your reading will be delivered to your email inbox within 96 hours and will include any messages, guidance, and next steps that come through for each question submitted. Please note that follow up questions are not included and will require the booking of an additional service.",
+    url: "https://calendly.com/tracessence/three-questions-email-reading",
+    list: [],
+  },
+];
+
 const Wisdom = () => {
   return (
     <div className="py-12">
@@ -61,6 +79,63 @@ const Wisdom = () => {
                     Duration: 60 mins
                   </CardDescription>
                 </div>
+              </div>
+            </CardHeader>
+            <CardContent className="flex-1">
+              <p className="text-[#909090] text-sm">{exp.content}</p>
+              {exp.list && (
+                <ul className="list-disc ml-5 mt-2">
+                  {exp.list.map((item, idx) => (
+                    <li key={idx} className="text-[#909090] text-sm">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </CardContent>
+            <CardFooter className="mt-8">
+              <Link href={exp.url}>
+                <Button>Book Now</Button>
+              </Link>
+            </CardFooter>
+          </Card>
+        ))}
+      </div>
+
+      <div className="flex flex-col items-center justify-center mt-12">
+        <h1 className="text-2xl md:text-5xl">Email Channeled Reading </h1>
+        <p className="text-center text-[#909090] mt-4 max-w-[800px]">
+          An Email Channeled Message Reading provides intuitive guidance and
+          insight on your submitted question, delivered directly to your email
+          inbox within 72 - 96 hours.
+        </p>
+        <p className="text-center text-[#909090] mt-4 max-w-[900px]">
+          Please note that email readings are limited to the question(s)
+          submitted. For a deeper experience, a live 1:1 session is recommended,
+          as the energetic connection is stronger and additional messages may
+          come through during the conversation.
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mt-6 md:mt-12">
+        {email.map((exp, i) => (
+          <Card
+            key={i}
+            className="flex flex-col h-full bg-[#F8F8F8] rounded-[15px] shadow-none border-none"
+          >
+            <CardHeader>
+              <CardTitle className="text-[#222222] font-[500] text-xl md:text-2xl">
+                {exp.title}
+              </CardTitle>
+              <div className="flex items-center justify-between gap-4">
+                <CardDescription className="text-primary font-[500] text-xl">
+                  {exp.subtitle}
+                </CardDescription>
+                {/* <div className="flex items-center gap-2">
+                  <Clock color="#860D84" size={16} />
+                  <CardDescription className="text-[#232323 text-sm">
+                    Duration: 60 mins
+                  </CardDescription>
+                </div> */}
               </div>
             </CardHeader>
             <CardContent className="flex-1">

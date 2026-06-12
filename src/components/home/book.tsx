@@ -26,7 +26,7 @@ const Book = () => {
             href="https://traceessence.gumroad.com/l/lfhykh"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline"
+            className="inline-block px-4 py-2 mt-2 bg-gradient-to-r from-purple-500 to-purple-700 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-purple-800 transition"
           >
             click to add to cart.
           </Link>
