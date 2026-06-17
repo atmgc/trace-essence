@@ -123,7 +123,7 @@ const Wisdom = () => {
         ))}
       </div>
 
-      <div className="flex flex-col items-center justify-center mt-12">
+      {/* <div className="flex flex-col items-center justify-center mt-12">
         <h1 className="text-2xl md:text-5xl">Email Channeled Reading </h1>
         <p className="text-center text-[#909090] mt-4 max-w-[800px]">
           An Email Channeled Message Reading provides intuitive guidance and
@@ -136,8 +136,8 @@ const Wisdom = () => {
           as the energetic connection is stronger and additional messages may
           come through during the conversation.
         </p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mt-6 md:mt-12">
+      </div> */}
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mt-6 md:mt-12">
         {email.map((exp, i) => (
           <Card
             key={i}
@@ -151,12 +151,6 @@ const Wisdom = () => {
                 <CardDescription className="text-primary font-[500] text-xl">
                   {exp.subtitle}
                 </CardDescription>
-                {/* <div className="flex items-center gap-2">
-                  <Clock color="#860D84" size={16} />
-                  <CardDescription className="text-[#232323 text-sm">
-                    Duration: 60 mins
-                  </CardDescription>
-                </div> */}
               </div>
             </CardHeader>
             <CardContent className="flex-1">
@@ -178,7 +172,7 @@ const Wisdom = () => {
             </CardFooter>
           </Card>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
