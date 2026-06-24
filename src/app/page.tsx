@@ -17,6 +17,7 @@ export default function Home() {
       <Marquee />
       {/* <Hero /> */}
       <HeroAlt />
+      <Marquee />
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
         <Intro />
         <Book />
