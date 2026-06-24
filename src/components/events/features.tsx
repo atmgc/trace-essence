@@ -104,7 +104,7 @@ export default function Features() {
       {/* Uses a very subtle off-white/cream background to differentiate sections */}
       <div className="bg-[#FDFCF8] py-16 lg:py-24 px-6 border-t border-gray-100">
         <h2 className="text-[#1A1835] text-lg md:text-xl font-medium tracking-[0.15em] uppercase">
-          What You'll Walk Away With
+          What You&apos;ll Walk Away With
         </h2>
         <DecorativeDivider />
 

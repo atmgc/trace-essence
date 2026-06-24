@@ -63,9 +63,10 @@ export default function HeroAlt() {
 
           {/* Paragraph */}
           <p className="text-gray-600 text-sm md:text-base max-w-md mb-10 leading-relaxed">
-            If you've outgrown your old life but don't know what's next, this
-            masterclass will help you understand why you feel this way and give
-            you the tools to move forward with clarity and confidence.
+            If you&apos;ve outgrown your old life but don&apos;t know
+            what&apos;s next, this masterclass will help you understand why you
+            feel this way and give you the tools to move forward with clarity
+            and confidence.
           </p>
 
           {/* CTA Button */}
