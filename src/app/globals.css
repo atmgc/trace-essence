@@ -3,6 +3,21 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  /* Define the animation name, duration, and easing */
+  --animate-marquee: marquee 30s linear infinite;
+
+  /* Define the keyframes */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
