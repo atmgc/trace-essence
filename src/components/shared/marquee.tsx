@@ -5,24 +5,24 @@ export default function Marquee() {
   // The repeating content block
   const MarqueeContent = () => (
     <div className="flex items-center justify-around whitespace-nowrap min-w-full shrink-0 px-4">
-      <span className="mx-4 text-sm font-semibold tracking-[0.2em] uppercase">
-        Who Am I Becoming? Masterclass
+      <span className="mx-2 text-lg font-semibold tracking-[0.2em] uppercase">
+        LIVE MASTERCLASS • WHO AM I BECOMING? • REGISTER NOW
       </span>
-      <Sparkle className="w-4 h-4 text-[#B38D56] mx-4 fill-current" />
-      <span className="mx-4 text-sm font-semibold tracking-[0.2em] uppercase text-[#B38D56]">
+      <Sparkle className="w-4 h-4 text-[#B38D56] mx-2 fill-current" />
+      <span className="mx-2 text-lg font-semibold tracking-[0.2em] uppercase text-[#B38D56]">
         Saturday, August 1, 2026
       </span>
-      <Sparkle className="w-4 h-4 text-[#B38D56] mx-4 fill-current" />
-      <span className="mx-4 text-sm font-semibold tracking-[0.2em] uppercase">
+      <Sparkle className="w-4 h-4 text-[#B38D56] mx-2 fill-current" />
+      <span className="mx-2 text-lg font-semibold tracking-[0.2em] uppercase">
         10:00 AM CDT / 4:00 PM WAT
       </span>
-      <Sparkle className="w-4 h-4 text-[#B38D56] mx-4 fill-current" />
+      <Sparkle className="w-4 h-4 text-[#B38D56] mx-2 fill-current" />
     </div>
   );
 
   return (
     <Link
-      href="/events"
+      href="/masterclass"
       className="relative flex overflow-x-hidden bg-primary text-[#FDFCF8] py-4 border-y border-[#B38D56]/30"
     >
       <div className="animate-marquee flex items-center">
