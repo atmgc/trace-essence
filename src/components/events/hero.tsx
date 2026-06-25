@@ -33,8 +33,7 @@ export default function Hero() {
         <div className="max-w-xl">
           {/* Pre-heading */}
           <p className="text-[#B38D56] text-xs md:text-sm font-semibold tracking-[0.2em] uppercase mb-6 leading-relaxed">
-            A live 3 hour identity shift <br className="hidden sm:block" />
-            masterclass for women
+            A live 3 hour identity shift masterclass
           </p>
 
           {/* Main Title */}

@@ -15,8 +15,8 @@ export default function Home() {
     <div>
       <Nav />
       <Marquee />
-      {/* <Hero /> */}
-      <HeroAlt />
+      <Hero />
+      {/* <HeroAlt /> */}
       <Marquee />
       <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
         <Intro />

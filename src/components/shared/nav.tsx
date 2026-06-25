@@ -9,7 +9,7 @@ import Image from "next/image";
 const links = [
   { name: "Home", to: "/" },
   { name: "About", to: "/about" },
-  { name: "Events", to: "/events" },
+  { name: "Masterclass", to: "/events" },
   { name: "Book your Appointment", to: "/services" },
   // { name: "Contact Us", to: "/contact" },
 ];

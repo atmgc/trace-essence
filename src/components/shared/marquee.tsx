@@ -1,4 +1,5 @@
 import { Sparkle } from "lucide-react";
+import Link from "next/link";
 
 export default function Marquee() {
   // The repeating content block
@@ -20,7 +21,10 @@ export default function Marquee() {
   );
 
   return (
-    <div className="relative flex overflow-x-hidden bg-primary text-[#FDFCF8] py-4 border-y border-[#B38D56]/30">
+    <Link
+      href="/events"
+      className="relative flex overflow-x-hidden bg-primary text-[#FDFCF8] py-4 border-y border-[#B38D56]/30"
+    >
       <div className="animate-marquee flex items-center">
         {/* Render it twice for a seamless infinite scroll */}
         <MarqueeContent />
@@ -30,6 +34,6 @@ export default function Marquee() {
       {/* Optional: Add gradient overlays on the edges to make it fade in/out smoothly */}
       <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-primary to-transparent z-10"></div>
       <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-primary to-transparent z-10"></div>
-    </div>
+    </Link>
   );
 }
