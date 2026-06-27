@@ -46,7 +46,7 @@ export default function AboutMasterclass() {
 
           {/* Signature/Quote Text */}
           {/* Note: Consider adding a script/handwriting font to your Tailwind config for this specific line to perfectly match the design. */}
-          <p className="text-[#B38D56] text-2xl md:text-[28px] font-serif italic leading-snug">
+          <p className="text-[#B38D56] text-2xl md:text-4xl font-[family-name:var(--font-great-vibes)] leading-snug">
             This is where the next version of you begins.
           </p>
         </div>

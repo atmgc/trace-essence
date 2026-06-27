@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Great_Vibes } from "next/font/google";
 import "./globals.css";
 
 const euclid = localFont({
@@ -30,6 +31,12 @@ const euclid = localFont({
       style: "normal",
     },
   ],
+});
+
+const greatVibes = Great_Vibes({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-great-vibes",
 });
 
 export const metadata: Metadata = {
@@ -113,7 +120,11 @@ export default function RootLayout({
           async
         ></script>
       </head>
-      <body className={`${euclid.className} antialiased`}>{children}</body>
+      <body
+        className={`${euclid.className} ${greatVibes.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
