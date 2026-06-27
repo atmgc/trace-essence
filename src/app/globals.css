@@ -16,7 +16,6 @@
       transform: translateX(-100%);
     }
   }
-  --font-script: var(--font-great-vibes), cursive;
 }
 
 @theme inline {

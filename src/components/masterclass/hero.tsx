@@ -58,7 +58,7 @@ export default function Hero() {
             You are not lost.
             <br />
             You are{" "}
-            <span className="text-[#B38D56] text-4xl font-[family-name:var(--font-great-vibes)]">
+            <span className="text-[#B38D56] italic">
               outgrowing who you used to be.
             </span>
           </h2>
