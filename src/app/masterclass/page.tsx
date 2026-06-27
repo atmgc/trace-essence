@@ -13,9 +13,7 @@ const WhoAmIBecoming = () => {
       <Hero />
       <Features />
       <Investment />
-      <div className="mx-auto max-w-[1440px] px-[16px] md:px-[100px]">
-        <AboutMasterclass />
-      </div>
+      <AboutMasterclass />
       <Footer />
     </div>
   );
