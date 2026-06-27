@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function AboutMasterclass() {
   return (
-    <section className="bg-[#FDFCF8] py-16 px-6 md:px-12 lg:px-24 w-full flex justify-center border-y border-gray-100">
+    <section className="bg-[#FDFCF8] w-full flex">
       <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-12 lg:gap-20">
         {/* Left Side: Image */}
         {/* Ensure the container has a relative position and a minimum height for the 'fill' image to work */}
-        <div className="w-full md:w-1/2 relative min-h-[350px] md:min-h-[450px] lg:min-h-[500px] rounded-sm overflow-hidden shadow-sm">
+        <div className="w-full md:w-1/2 relative min-h-[350px] md:min-h-[450px] lg:min-h-[500px] overflow-hidden shadow-sm">
           {/* Replace src with your actual image path */}
           <Image
             src="/images/about-masterclass.jpg"
@@ -18,7 +18,7 @@ export default function AboutMasterclass() {
         </div>
 
         {/* Right Side: Content */}
-        <div className="w-full md:w-1/2 flex flex-col justify-center text-left">
+        <div className="w-full md:w-1/2 flex flex-col justify-center text-left px-6">
           {/* Heading */}
           <h2 className="text-[#1A1835] text-lg md:text-xl font-serif tracking-[0.1em] uppercase mb-4">
             About This Masterclass

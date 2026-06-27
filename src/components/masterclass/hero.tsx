@@ -57,15 +57,17 @@ export default function Hero() {
           <h2 className="text-2xl md:text-3xl font-serif italic mb-5 text-primary">
             You are not lost.
             <br />
-            You are <span className="text-[#B38D56]">evolving.</span>
+            You are{" "}
+            <span className="text-[#B38D56]">
+              outgrowing who you used to be.
+            </span>
           </h2>
 
           {/* Paragraph */}
           <p className="text-gray-600 text-sm md:text-base max-w-md mb-10 leading-relaxed">
-            If you&apos;ve outgrown your old life but don&apos;t know
-            what&apos;s next, this masterclass will help you understand why you
-            feel this way and give you the tools to move forward with clarity
-            and confidence.
+            If your old life no longer fits, this masterclass will help you
+            understand this season, reconnect with yourself, and align with the
+            next version of you without forcing, hustling. or shrinking back.
           </p>
 
           {/* CTA Button */}

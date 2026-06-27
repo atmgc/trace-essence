@@ -8,17 +8,20 @@ import {
   Users,
   PlaySquare,
   Sparkle,
+  Heart,
+  Sprout,
+  Sunrise,
 } from "lucide-react";
 
 // --- Data Arrays ---
 const targetAudience = [
   {
-    icon: User,
-    text: "You feel disconnected from yourself.",
+    icon: Heart,
+    text: "You feel like something in you has shifted.",
   },
   {
-    icon: Leaf,
-    text: "You've outgrown your old life.",
+    icon: Sprout,
+    text: "You've outgrown old patterns, roles, or expectations.",
   },
   {
     icon: Target,
@@ -26,7 +29,11 @@ const targetAudience = [
   },
   {
     icon: HelpCircle,
-    text: "You're unsure of your next step.",
+    text: "You are tired of second guessing your next move.",
+  },
+  {
+    icon: Sunrise,
+    text: "You are ready to understand who you are becoming.",
   },
 ];
 
@@ -34,12 +41,17 @@ const deliverables = [
   {
     icon: Brain,
     title: "CLARITY",
-    text: "Understand what's happening within you and why.",
+    text: "Understand what's happening within you and why this season feels different.",
   },
   {
     icon: BookOpen,
     title: "REFLECTION EXERCISES",
-    text: "Powerful prompts to help you go deeper and gain real insight.",
+    text: "Guided prompts to help you reconnect with yourself and hear yourself clearly again.",
+  },
+  {
+    icon: User,
+    title: "ALIGNEMENT TO YOUR NEXT VERSION",
+    text: "Learn what it means to move as the woman you are becoming, not the version you had to be.",
   },
   {
     icon: Users,
@@ -49,7 +61,7 @@ const deliverables = [
   {
     icon: PlaySquare,
     title: "REPLAY ACCESS",
-    text: "Rewatch and revisit at your pace.",
+    text: "Rewatch and revisit the class at your own pace.",
   },
 ];
 
@@ -75,7 +87,7 @@ export default function Features() {
         </h2>
         <DecorativeDivider />
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5">
           {targetAudience.map((item, index) => {
             const Icon = item.icon;
             return (
@@ -108,7 +120,7 @@ export default function Features() {
         </h2>
         <DecorativeDivider />
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5">
           {deliverables.map((item, index) => {
             const Icon = item.icon;
             return (
