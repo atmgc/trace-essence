@@ -130,8 +130,8 @@ const Footer = () => {
           <p>Copyright © 2025 Tracessense. All Rights Reserved.</p>
         </div>
         <div className="flex flex-col md:flex-row gap-5">
-          <Link href="/terms-and-conditions" className="whitespace-nowrap">
-            Terms & Conditions
+          <Link href="/terms-of-service" className="whitespace-nowrap">
+            Terms & Service
           </Link>
           <p className="hidden md:block">|</p>
           <Link href="/privacy-policy">Privacy Policy</Link>
