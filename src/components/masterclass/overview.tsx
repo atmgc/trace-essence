@@ -14,9 +14,9 @@ export default function MasterclassOverview() {
           <p className="text-[#1A1835] font-serif text-xl md:text-2xl leading-[1.4] italic">
             <span className="font-semibold not-italic">Who Am I Becoming?</span>{" "}
             is a live, three hour transformational masterclass designed for
-            women who know they've outgrown who they used to be and are ready to
-            step into the next chapter of their lives with greater clarity,
-            confidence, and purpose.
+            women who know they&apos;ve outgrown who they used to be and are
+            ready to step into the next chapter of their lives with greater
+            clarity, confidence, and purpose.
           </p>
         </div>
 
@@ -26,24 +26,25 @@ export default function MasterclassOverview() {
             <strong className="text-[#1A1835] font-semibold">
               This is not about becoming someone else.
             </strong>{" "}
-            It's about shedding the beliefs, fears, and patterns that no longer
-            serve you so you can reconnect with the woman you were always meant
-            to be.
+            It&apos;s about shedding the beliefs, fears, and patterns that no
+            longer serve you so you can reconnect with the woman you were always
+            meant to be.
           </p>
 
           <p>
-            Together, we'll explore why identity shifts can feel so
-            overwhelming, what's keeping you feeling stuck, and how to move
-            forward with confidence instead of confusion. You'll leave with
+            Together, we&apos;ll explore why identity shifts can feel so
+            overwhelming, what&apos;s keeping you feeling stuck, and how to move
+            forward with confidence instead of confusion. You&apos;ll leave with
             practical tools, a renewed sense of self, and a personalized action
             plan you can begin implementing immediately.
           </p>
 
           <p>
-            Whether you're navigating a career change, healing from a difficult
-            season, rebuilding after loss, or simply sensing that you're meant
-            for more, this masterclass will help you gain the clarity and
-            direction needed to confidently move into your next season.
+            Whether you&apos;re navigating a career change, healing from a
+            difficult season, rebuilding after loss, or simply sensing that
+            you&apos;re meant for more, this masterclass will help you gain the
+            clarity and direction needed to confidently move into your next
+            season.
           </p>
         </div>
       </div>

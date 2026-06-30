@@ -29,27 +29,27 @@ export default function AboutMasterclass() {
 
           {/* First Paragraph (Standard Text) */}
           <p className="text-gray-700 text-sm md:text-base leading-relaxed mb-6">
-            Hi, I'm Tracy, founder of Trace Essence.
+            Hi, I&apos;m Tracy, founder of Trace Essence.
           </p>
 
           <p className="text-gray-700 text-sm md:text-base leading-relaxed mb-6">
-            I've navigated major personal and professional transitions that
+            I&apos;ve navigated major personal and professional transitions that
             required me to redefine who I was from the inside out. I know what
-            it's like to outgrow an old version of yourself, question what's
-            next, and rebuild with intention.
+            it&apos;s like to outgrow an old version of yourself, question
+            what&apos;s next, and rebuild with intention.
           </p>
 
           <p className="text-gray-700 text-sm md:text-base leading-relaxed mb-6">
             That experience led me to create Trace Essence, where I now help you
             gain clarity, reconnect with your authentic identity, and
-            confidently navigate life's transitions through practical coaching,
-            self awareness, and spiritual insight.
+            confidently navigate life&apos;s transitions through practical
+            coaching, self awareness, and spiritual insight.
           </p>
 
           <p className="text-gray-700 text-sm md:text-base leading-relaxed mb-6">
             My hope is that you leave this masterclass with a deeper
             understanding of yourself, renewed confidence, and a clear path for
-            what's next.
+            what&apos;s next.
           </p>
 
           {/* <p className="text-[#1A1835] font-semibold text-sm md:text-base leading-relaxed mb-8">

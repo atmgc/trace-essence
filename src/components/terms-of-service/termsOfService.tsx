@@ -240,8 +240,8 @@ export default function TermsOfService() {
           <p className="mb-10">
             However, confidentiality cannot be guaranteed during group events or
             masterclasses where other participants are present. Participants are
-            expected to respect one another's privacy and refrain from sharing
-            personal information disclosed during group sessions.
+            expected to respect one another&apos;s privacy and refrain from
+            sharing personal information disclosed during group sessions.
           </p>
 
           {/* 10. Participant Responsibility */}

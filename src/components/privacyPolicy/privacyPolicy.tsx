@@ -261,9 +261,9 @@ export default function PrivacyPolicy() {
             To exercise these rights, please contact us through our website.
           </p>
 
-          {/* 10. Children's Privacy */}
+          {/* 10. Children&apos;s Privacy */}
           <h2 className="text-xl md:text-2xl font-serif text-[#1A1835] mt-12 mb-4">
-            10. Children's Privacy
+            10. Children&apos;s Privacy
           </h2>
           <p className="mb-4">
             Trace Essence services are intended for individuals aged 18 and

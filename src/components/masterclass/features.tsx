@@ -87,11 +87,11 @@ export default function Features() {
         </h2>
         <DecorativeDivider />
         <p className="text-[#1A1835] text-[15px] md:text-base leading-relaxed max-w-3xl mx-auto mt-4 mb-10 pb-20">
-          You know you've outgrown the version of yourself that got you here,
-          but you're not fully clear on what comes next. You're ready for
-          change, yet uncertainty, overthinking, or fear keeps pulling you back.
-          If you're standing at the edge of a new season and want clarity on
-          your next step, this masterclass was created for you.
+          You know you&apos;ve outgrown the version of yourself that got you
+          here, but you&apos;re not fully clear on what comes next. You&apos;re
+          ready for change, yet uncertainty, overthinking, or fear keeps pulling
+          you back. If you&apos;re standing at the edge of a new season and want
+          clarity on your next step, this masterclass was created for you.
         </p>
 
         <h2 className="text-[#1A1835] text-lg md:text-xl font-medium tracking-[0.15em] uppercase">
