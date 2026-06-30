@@ -17,56 +17,56 @@ import {
 const targetAudience = [
   {
     icon: Heart,
-    text: "You feel like something in you has shifted.",
+    text: "Is this all there is for me?",
   },
   {
     icon: Sprout,
-    text: "You've outgrown old patterns, roles, or expectations.",
+    text: "I've outgrown my old life, but I'm not sure who I'm becoming.",
   },
   {
     icon: Target,
-    text: "You're navigating a major life transition.",
+    text: "I keep second guessing my decisions.",
   },
   {
     icon: HelpCircle,
-    text: "You are tired of second guessing your next move.",
+    text: "I feel stuck, overwhelmed, or unclear about my next step.",
   },
   {
     icon: Sunrise,
-    text: "You are ready to understand who you are becoming.",
+    text: "I know I'm meant for more, but I need clarity and direction.",
   },
 ];
 
 const deliverables = [
   {
     icon: Brain,
-    title: "CLARITY",
-    text: "Understand what's happening within you and why this season feels different.",
+    title: "Clarity & Direction",
+    text: "Know what truly matters to you and gain confidence in the decisions that will shape your next chapter.",
   },
   {
     icon: BookOpen,
-    title: "REFLECTION EXERCISES",
-    text: "Guided prompts to help you reconnect with yourself and hear yourself clearly again.",
+    title: "A Stronger Sense of Identity",
+    text: "Reconnect with who you are beneath expectations, fear, and past experiences so you can move forward with greater self trust.",
   },
   {
     icon: User,
-    title: "ALIGNEMENT TO YOUR NEXT VERSION",
-    text: "Learn what it means to move as the woman you are becoming, not the version you had to be.",
+    title: "Freedom From Overthinking",
+    text: "Learn how to quiet the mental noise, stop second guessing yourself, and make decisions from a place of confidence and alignment.",
   },
   {
     icon: Users,
-    title: "LIVE Q & A",
-    text: "Get your questions answered in real time.",
+    title: "Emotional Peace",
+    text: "Understand what's keeping you stuck, process what no longer serves you, and create space for greater peace and emotional resilience.",
   },
   {
     icon: PlaySquare,
-    title: "REPLAY ACCESS",
-    text: "Rewatch and revisit the class at your own pace.",
+    title: "A Personalized Next Step Plan",
+    text: "Walk away with practical actions tailored to your current season so you know exactly what to focus on after the masterclass.",
   },
 ];
 
 // --- Reusable Decorative Divider ---
-const DecorativeDivider = () => (
+export const DecorativeDivider = () => (
   <div className="flex items-center justify-center w-full max-w-[120px] mx-auto mt-3 mb-10">
     <div className="flex-grow border-t border-[#B38D56]/50"></div>
     <Sparkle
@@ -81,9 +81,21 @@ export default function Features() {
   return (
     <section className="flex flex-col w-full text-center">
       {/* Top Section: Is This For You? */}
-      <div className="bg-white py-16 lg:py-24 px-6">
+      <div className="bg-[#FDFCF8] py-16 lg:py-24 px-6">
         <h2 className="text-[#1A1835] text-lg md:text-xl font-medium tracking-[0.15em] uppercase">
           Is This For You?
+        </h2>
+        <DecorativeDivider />
+        <p className="text-[#1A1835] text-[15px] md:text-base leading-relaxed max-w-3xl mx-auto mt-4 mb-10 pb-20">
+          You know you've outgrown the version of yourself that got you here,
+          but you're not fully clear on what comes next. You're ready for
+          change, yet uncertainty, overthinking, or fear keeps pulling you back.
+          If you're standing at the edge of a new season and want clarity on
+          your next step, this masterclass was created for you.
+        </p>
+
+        <h2 className="text-[#1A1835] text-lg md:text-xl font-medium tracking-[0.15em] uppercase">
+          You may be thinking
         </h2>
         <DecorativeDivider />
 

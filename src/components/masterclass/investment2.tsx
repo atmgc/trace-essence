@@ -3,6 +3,7 @@ import { ArrowRight, CalendarDays } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { DecorativeDivider } from "./features";
 
 export default function Investment() {
   const EARLY_BIRD_LINK =
@@ -27,12 +28,14 @@ export default function Investment() {
   return (
     <section className="w-full flex flex-col font-sans">
       {/* Top Section: Pricing Cards */}
-      <div className="bg-[#FDFCF8] py-16 px-6 w-full flex flex-col items-center">
+      <div className="bg-white py-16 px-6 w-full flex flex-col items-center">
         {/* Heading */}
-        <h2 className="text-[#B38D56] text-lg md:text-xl font-serif tracking-[0.1em] uppercase mb-2">
+        <h2 className="text-[#1A1835] text-lg md:text-xl font-medium tracking-[0.15em] uppercase">
           Investment
         </h2>
-        <div className="w-12 h-[1px] bg-[#B38D56] mb-12"></div>
+        <DecorativeDivider />
+
+        {/* <div className="w-12 h-[1px] bg-[#B38D56] mb-12"></div> */}
 
         {/* Cards Container */}
         <div className="flex flex-col md:flex-row gap-6 md:gap-8 max-w-4xl w-full justify-center items-stretch">
