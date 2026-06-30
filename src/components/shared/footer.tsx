@@ -127,7 +127,7 @@ const Footer = () => {
 
       <div className="flex items-center justify-between bg-primary border-t border-[#F0FFD9] py-[8px] px-[16px] md:px-[100px] text-white pt-6 pb-6">
         <div className="flex flex-col md:flex-row gap-x-5">
-          <p>Copyright © 2025 Tracessense. All Rights Reserved.</p>
+          <p>Copyright © 2025 Trace-Essence. All Rights Reserved.</p>
         </div>
         <div className="flex flex-col md:flex-row gap-5">
           <Link href="/terms-of-service" className="whitespace-nowrap">
