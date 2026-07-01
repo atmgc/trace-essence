@@ -19,8 +19,9 @@ export default function PrivacyPolicy() {
         {/* Introduction */}
         <div className="prose prose-gray max-w-none text-gray-700 leading-relaxed text-[15px] md:text-base">
           <p className="mb-6">
-            Trace Essence ("Trace Essence," "we," "our," or "us") respects your
-            privacy and is committed to protecting your personal information.
+            Trace Essence (&quot;Trace Essence,&quot; &quot;we,&quot;
+            &quot;our,&quot; or &quot;us&quot;) respects your privacy and is
+            committed to protecting your personal information.
           </p>
           <p className="mb-6">
             This Privacy Policy explains how we collect, use, disclose, store,

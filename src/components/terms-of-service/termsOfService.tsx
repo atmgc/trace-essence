@@ -19,10 +19,11 @@ export default function TermsOfService() {
         {/* Introduction */}
         <div className="prose prose-gray max-w-none text-gray-700 leading-relaxed text-[15px] md:text-base">
           <p className="mb-6">
-            Welcome to Trace Essence ("Trace Essence," "we," "our," or "us").
-            These Terms of Service ("Terms") govern your access to and use of
-            our website, services, products, digital content, events, and
-            educational resources.
+            Welcome to Trace Essence (&quot;Trace Essence,&quot; &quot;we,&quot;
+            &quot;our,&quot; or &quot;us&quot;). These Terms of Service
+            (&quot;Terms&quot;) govern your access to and use of our website,
+            services, products, digital content, events, and educational
+            resources.
           </p>
           <p className="mb-10">
             By accessing our website, purchasing a service or product, booking
