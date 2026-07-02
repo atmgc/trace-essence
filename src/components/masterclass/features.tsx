@@ -83,21 +83,12 @@ export default function Features() {
       {/* Top Section: Is This For You? */}
       <div className="bg-[#FDFCF8] py-16 lg:py-24 px-6">
         <h2 className="text-[#1A1835] text-lg md:text-xl font-medium tracking-[0.15em] uppercase">
-          Is This For You?
+          This Is For You If
         </h2>
         <DecorativeDivider />
-        <p className="text-[#1A1835] text-[15px] md:text-base leading-relaxed max-w-3xl mx-auto mt-4 mb-10 pb-20">
-          You know you&apos;ve outgrown the version of yourself that got you
-          here, but you&apos;re not fully clear on what comes next. You&apos;re
-          ready for change, yet uncertainty, overthinking, or fear keeps pulling
-          you back. If you&apos;re standing at the edge of a new season and want
-          clarity on your next step, this masterclass was created for you.
-        </p>
-
-        <h2 className="text-[#1A1835] text-lg md:text-xl font-medium tracking-[0.15em] uppercase">
-          You may be thinking
-        </h2>
-        <DecorativeDivider />
+        <span className="text-[#B38D56] italic mb-10  block text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
+          ...you may be thinking
+        </span>
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5">
           {targetAudience.map((item, index) => {

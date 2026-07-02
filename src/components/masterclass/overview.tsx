@@ -26,26 +26,25 @@ export default function MasterclassOverview() {
             <strong className="text-[#1A1835] font-semibold">
               This is not about becoming someone else.
             </strong>{" "}
-            It&apos;s about shedding the beliefs, fears, and patterns that no
-            longer serve you so you can reconnect with the woman you were always
-            meant to be.
+            It&apos;s about letting go of the beliefs, fears, and patterns that
+            no longer align with who you&apos;re becoming
           </p>
 
           <p>
-            Together, we&apos;ll explore why identity shifts can feel so
-            overwhelming, what&apos;s keeping you feeling stuck, and how to move
-            forward with confidence instead of confusion. You&apos;ll leave with
-            practical tools, a renewed sense of self, and a personalized action
-            plan you can begin implementing immediately.
+            Together, we&apos;ll uncover what&apos;s keeping you stuck, why this
+            season feels so uncertain, and how to move forward with greater
+            clarity and confidence. You&apos;ll leave with practical tools, a
+            deeper understanding of yourself, and a clear action plan to help
+            you step into your next season with intention.
           </p>
 
-          <p>
+          {/* <p>
             Whether you&apos;re navigating a career change, healing from a
             difficult season, rebuilding after loss, or simply sensing that
             you&apos;re meant for more, this masterclass will help you gain the
             clarity and direction needed to confidently move into your next
             season.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

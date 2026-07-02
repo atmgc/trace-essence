@@ -9,10 +9,10 @@ export default function AboutMasterclass() {
         <div className="w-full md:w-1/2 relative min-h-[350px] md:min-h-[450px] lg:min-h-[600px] overflow-hidden shadow-sm">
           {/* Replace src with your actual image path */}
           <Image
-            src="/images/about-masterclass.jpeg"
+            src="/images/tracy.jpeg"
             alt="Becoming Her journal and vase on table"
             fill
-            className="object-cover"
+            className="object-cover object-top"
             priority
           />
         </div>
