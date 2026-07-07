@@ -11,6 +11,13 @@ export default function Investment() {
   const REGULAR_LINK =
     "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass";
 
+  // Paystack links (currently identical as requested, ready for you to update later)
+  const PAYSTACK_EARLY_BIRD =
+    "https://paystack.shop/pay/trace-essence_masterclass";
+  const PAYSTACK_REGULAR =
+    "https://paystack.shop/pay/trace-essence_masterclass";
+
+  const [region, setRegion] = useState<"global" | "africa">("global");
   const [checkoutLink, setCheckoutLink] = useState(EARLY_BIRD_LINK);
   const [isExpired, setIsExpired] = useState(false);
 
@@ -18,12 +25,17 @@ export default function Investment() {
     // Deadline: July 15, 2026 at 11:59 PM CDT
     const deadline = new Date("2026-07-15T23:59:59-05:00");
     const now = new Date();
+    const expired = now > deadline;
 
-    if (now > deadline) {
-      setCheckoutLink(REGULAR_LINK);
-      setIsExpired(true);
+    setIsExpired(expired);
+
+    // Dynamic link generation based on deadline and selected region
+    if (region === "global") {
+      setCheckoutLink(expired ? REGULAR_LINK : EARLY_BIRD_LINK);
+    } else {
+      setCheckoutLink(expired ? PAYSTACK_REGULAR : PAYSTACK_EARLY_BIRD);
     }
-  }, []);
+  }, [region]);
 
   return (
     <section className="w-full flex flex-col font-sans">
@@ -34,8 +46,6 @@ export default function Investment() {
           Investment
         </h2>
         <DecorativeDivider />
-
-        {/* <div className="w-12 h-[1px] bg-[#B38D56] mb-12"></div> */}
 
         {/* Cards Container */}
         <div className="flex flex-col md:flex-row gap-6 md:gap-8 max-w-4xl w-full justify-center items-stretch">
@@ -108,12 +118,10 @@ export default function Investment() {
 
       {/* Bottom Section: Details & CTA Banner */}
       <div className="relative bg-[#2A1635] w-full py-16 md:py-20 px-6 overflow-hidden">
-        {/* NEW: Composite Background Asset
-          Uses mix-blend-screen to drop the black background and keep the gold glowing.
-        */}
+        {/* Composite Background Asset */}
         <div className="absolute inset-0 w-full h-full opacity-60 mix-blend-screen pointer-events-none">
           <Image
-            src="/images/gold-decorations.jpg" // Update to match your file name
+            src="/images/gold-decorations.jpg"
             alt="Decorative gold dust and floral art"
             fill
             className="object-cover object-center"
@@ -145,11 +153,43 @@ export default function Investment() {
             Saturday, August 1, 2026
           </p>
 
-          <p className="text-white text-xs md:text-sm tracking-[0.15em] uppercase mb-10 drop-shadow-md">
+          <p className="text-white text-xs md:text-sm tracking-[0.15em] uppercase mb-8 drop-shadow-md">
             10:00 AM CDT <span className="mx-3 text-white/50">|</span> 4:00 PM
             WAT
           </p>
 
+          {/* Region Selector Tabs */}
+          <div className="flex flex-col items-center mb-6 w-full max-w-sm">
+            <p className="text-white/60 text-xs uppercase tracking-widest mb-3">
+              Select Your Registration Route
+            </p>
+            <div className="flex bg-[#1A1835]/60 p-1 rounded border border-[#B38D56]/20 w-full">
+              <button
+                type="button"
+                onClick={() => setRegion("global")}
+                className={`flex-1 py-2 text-xs uppercase tracking-wider font-medium rounded transition-all duration-300 ${
+                  region === "global"
+                    ? "bg-[#B38D56] text-white shadow-sm"
+                    : "text-white/70 hover:text-white"
+                }`}
+              >
+                Global (USD)
+              </button>
+              <button
+                type="button"
+                onClick={() => setRegion("africa")}
+                className={`flex-1 py-2 text-xs uppercase tracking-wider font-medium rounded transition-all duration-300 ${
+                  region === "africa"
+                    ? "bg-[#B38D56] text-white shadow-sm"
+                    : "text-white/70 hover:text-white"
+                }`}
+              >
+                Africa (NG, GH, ZA, KE)
+              </button>
+            </div>
+          </div>
+
+          {/* Dynamic Registration Button */}
           <Link
             href={checkoutLink}
             target="_blank"
@@ -157,7 +197,7 @@ export default function Investment() {
             className="group bg-[#B38D56] hover:bg-[#9A7745] text-white px-10 py-4 flex items-center transition-colors duration-300 rounded shadow-lg"
           >
             <span className="text-sm font-medium tracking-widest uppercase mr-3">
-              Register Now
+              {region === "global" ? "Register Now" : "Register via Paystack"}
             </span>
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
           </Link>
