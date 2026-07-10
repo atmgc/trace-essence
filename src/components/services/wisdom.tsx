@@ -15,17 +15,21 @@ import Link from "next/link";
 const wisdom = [
   {
     title: "30 Minutes Channeled Message Reading",
-    subtitle: "$50",
+    subtitle: "$65",
+    duration: "30 mins",
     content:
       "In just 30 minutes, you’ll receive direct guidance from your spiritual team on one pressing block or decision, so you can finally stop guessing and start moving with confidence. You’ll walk away with grounded insight, clear understanding, and actionable next steps that show you exactly what to do next.",
-    url: "https://calendly.com/tracessence/clarity-igniter-session-clone",
+    globalUrl: "https://calendly.com/tracessence/clarity-igniter-session-clone",
+    localUrl: "https://paystack.shop/pay/trace-essence_30minute",
   },
   {
     title: "1-hour Channeled Message Reading",
-    subtitle: "$95",
+    subtitle: "$120",
+    duration: "60 mins",
     content:
       "In this 1-hour channeled session, you’ll uncover your core soul gifts, the obstacles blocking your next level, and the hidden opportunities aligned with your path. You’ll receive personalized rituals or mantras for rapid shifts, along with clear actions to help you move forward with confidence and alignment.",
-    url: "https://calendly.com/tracessence/signature-talk-clone",
+    globalUrl: "https://calendly.com/tracessence/signature-talk-clone",
+    localUrl: "https://paystack.shop/pay/trace-essence_1hour",
     list: [],
   },
 ];
@@ -47,7 +51,8 @@ const email = [
         the booking of an additional service.
       </>
     ),
-    url: "https://calendly.com/tracessence/one-question-email-reading",
+    globalUrl: "https://calendly.com/tracessence/one-question-email-reading",
+    localUrl: "",
   },
   {
     title: "Three Question Email Channeled Reading",
@@ -64,7 +69,8 @@ const email = [
         the booking of an additional service.
       </>
     ),
-    url: "https://calendly.com/tracessence/three-questions-email-reading",
+    globalUrl: "https://calendly.com/tracessence/three-questions-email-reading",
+    localUrl: "",
     list: [],
   },
 ];
@@ -90,22 +96,24 @@ const Wisdom = () => {
               <CardTitle className="text-[#222222] font-[500] text-xl md:text-2xl">
                 {exp.title}
               </CardTitle>
-              <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center justify-between gap-4 mt-2">
                 <CardDescription className="text-primary font-[500] text-xl">
                   {exp.subtitle}
                 </CardDescription>
                 <div className="flex items-center gap-2">
                   <Clock color="#860D84" size={16} />
-                  <CardDescription className="text-[#232323 text-sm">
-                    Duration: 60 mins
+                  <CardDescription className="text-[#232323] text-sm">
+                    Duration: {exp.duration}
                   </CardDescription>
                 </div>
               </div>
             </CardHeader>
             <CardContent className="flex-1">
-              <p className="text-[#909090] text-sm">{exp.content}</p>
-              {exp.list && (
-                <ul className="list-disc ml-5 mt-2">
+              <p className="text-[#909090] text-sm leading-relaxed">
+                {exp.content}
+              </p>
+              {exp.list && exp.list.length > 0 && (
+                <ul className="list-disc ml-5 mt-4 space-y-1">
                   {exp.list.map((item, idx) => (
                     <li key={idx} className="text-[#909090] text-sm">
                       {item}
@@ -114,10 +122,36 @@ const Wisdom = () => {
                 </ul>
               )}
             </CardContent>
-            <CardFooter className="mt-8">
-              <Link href={exp.url}>
-                <Button>Book Now</Button>
-              </Link>
+
+            <CardFooter className="mt-6 flex flex-col sm:flex-row gap-3">
+              {/* Global Checkout Button */}
+              {exp.globalUrl && (
+                <Link
+                  href={exp.globalUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto flex-1"
+                >
+                  <Button className="w-full">Book (Global / USD)</Button>
+                </Link>
+              )}
+
+              {/* Local Checkout Button */}
+              {exp.localUrl && (
+                <Link
+                  href={exp.localUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto flex-1"
+                >
+                  <Button
+                    variant="outline"
+                    className="w-full border-primary text-primary hover:bg-primary/5"
+                  >
+                    Paystack (Africa)
+                  </Button>
+                </Link>
+              )}
             </CardFooter>
           </Card>
         ))}
@@ -166,9 +200,11 @@ const Wisdom = () => {
               )}
             </CardContent>
             <CardFooter className="mt-8">
-              <Link href={exp.url}>
-                <Button>Book Now</Button>
-              </Link>
+              {exp.globalUrl && (
+                <Link href={exp.globalUrl} target="_blank" rel="noopener noreferrer">
+                  <Button>Book Now</Button>
+                </Link>
+              )}
             </CardFooter>
           </Card>
         ))}
