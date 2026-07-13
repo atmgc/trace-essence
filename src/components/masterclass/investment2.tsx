@@ -22,8 +22,8 @@ export default function Investment() {
   const [isExpired, setIsExpired] = useState(false);
 
   useEffect(() => {
-    // Deadline: July 15, 2026 at 11:59 PM CDT
-    const deadline = new Date("2026-07-15T23:59:59-05:00");
+    // Deadline: July 17, 2026 at 11:59 PM CDT
+    const deadline = new Date("2026-07-17T23:59:59-05:00");
     const now = new Date();
     const expired = now > deadline;
 
@@ -81,7 +81,7 @@ export default function Investment() {
                   isExpired ? "text-gray-500" : "text-[#B38D56]"
                 }`}
               >
-                *Early bird ends July 15th
+                *Early bird ends July 17th
               </span>
             </div>
           </div>

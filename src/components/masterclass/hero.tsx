@@ -15,9 +15,9 @@ export default function Hero() {
   const [checkoutLink, setCheckoutLink] = useState(EARLY_BIRD_LINK);
 
   useEffect(() => {
-    // 3. Define the exact deadline (July 15, 2026 at 11:59 PM CDT)
+    // 3. Define the exact deadline (July 17, 2026 at 11:59 PM CDT)
     // We include the timezone offset (-05:00 for CDT) to be totally accurate
-    const deadline = new Date("2026-07-15T23:59:59-05:00");
+    const deadline = new Date("2026-07-17T23:59:59-05:00");
     const now = new Date();
 
     // 4. Swap the link if the current time is past the deadline
