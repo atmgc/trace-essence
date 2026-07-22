@@ -22,8 +22,8 @@ export default function Investment() {
   const [isExpired, setIsExpired] = useState(false);
 
   useEffect(() => {
-    // Deadline: July 17, 2026 at 11:59 PM CDT
-    const deadline = new Date("2026-07-17T23:59:59-05:00");
+    // Deadline: August 17, 2026 at 11:59 PM CDT
+    const deadline = new Date("2026-08-17T23:59:59-05:00");
     const now = new Date();
     const expired = now > deadline;
 
@@ -76,13 +76,13 @@ export default function Investment() {
               <span className="text-[13px] font-bold tracking-[0.15em] uppercase text-[#1A1835] mb-4">
                 Limited Time Only
               </span>
-              <span
+              {/* <span
                 className={`text-[13px] font-medium ${
                   isExpired ? "text-gray-500" : "text-[#B38D56]"
                 }`}
               >
                 *Early bird ends July 17th
-              </span>
+              </span> */}
             </div>
           </div>
 
