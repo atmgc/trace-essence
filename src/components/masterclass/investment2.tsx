@@ -7,7 +7,7 @@ import { DecorativeDivider } from "./features";
 
 export default function Investment() {
   const EARLY_BIRD_LINK =
-    "https://calendly.com/tracessence/identity_shift_masterclass_earlybird";
+    "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass";
   const REGULAR_LINK =
     "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass";
 
@@ -22,8 +22,8 @@ export default function Investment() {
   const [isExpired, setIsExpired] = useState(false);
 
   useEffect(() => {
-    // Deadline: August 17, 2026 at 11:59 PM CDT
-    const deadline = new Date("2026-08-17T23:59:59-05:00");
+    // Deadline: October 3, 2026 at 11:59 PM CDT
+    const deadline = new Date("2026-10-03T23:59:59-05:00");
     const now = new Date();
     const expired = now > deadline;
 
@@ -150,7 +150,7 @@ export default function Investment() {
           <div className="w-12 h-[1px] bg-[#B38D56] mb-6"></div>
 
           <p className="text-[#B38D56] text-sm md:text-base font-medium tracking-[0.15em] uppercase mb-3 drop-shadow-md">
-            Saturday, August 1, 2026
+            Saturday, October 3, 2026
           </p>
 
           <p className="text-white text-xs md:text-sm tracking-[0.15em] uppercase mb-8 drop-shadow-md">
