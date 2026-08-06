@@ -20,7 +20,8 @@ const wisdom = [
     content:
       "In just 30 minutes, you’ll receive direct guidance from your spiritual team on one pressing block or decision, so you can finally stop guessing and start moving with confidence. You’ll walk away with grounded insight, clear understanding, and actionable next steps that show you exactly what to do next.",
     globalUrl: "https://calendly.com/tracessence/clarity-igniter-session-clone",
-    localUrl: "https://paystack.shop/pay/trace-essence_30minute",
+    localUrl:
+      "https://paystack.com/buy/30-minutes-channeled-message-reading-mivofy",
   },
   {
     title: "1-hour Channeled Message Reading",
@@ -29,7 +30,8 @@ const wisdom = [
     content:
       "In this 1-hour channeled session, you’ll uncover your core soul gifts, the obstacles blocking your next level, and the hidden opportunities aligned with your path. You’ll receive personalized rituals or mantras for rapid shifts, along with clear actions to help you move forward with confidence and alignment.",
     globalUrl: "https://calendly.com/tracessence/signature-talk-clone",
-    localUrl: "https://paystack.shop/pay/trace-essence_1hour",
+    localUrl:
+      "https://paystack.com/buy/1-hour-channeled-message-reading-mukvun",
     list: [],
   },
 ];

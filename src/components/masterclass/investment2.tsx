@@ -13,9 +13,9 @@ export default function Investment() {
 
   // Paystack links (currently identical as requested, ready for you to update later)
   const PAYSTACK_EARLY_BIRD =
-    "https://paystack.shop/pay/trace-essence_masterclass";
+    "https://paystack.com/buy/who-am-i-becoming-masterclass-oelvvn";
   const PAYSTACK_REGULAR =
-    "https://paystack.shop/pay/trace-essence_masterclass";
+    "https://paystack.com/buy/who-am-i-becoming-masterclass-oelvvn";
 
   const [region, setRegion] = useState<"global" | "africa">("global");
   const [checkoutLink, setCheckoutLink] = useState(EARLY_BIRD_LINK);

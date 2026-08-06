@@ -18,7 +18,8 @@ const experiences = [
     content:
       "Your Impact: Walk away with clear recognition about who you’re becoming, a deep understanding of how your current mindset is preventing you from embodying your new identity, and at least 3 tangible actions tailored to help you immediately start breaking the limiting patterns that have been holding you back. This session gives you clarity, confidence, and real momentum the moment you step out.",
     globalUrl: "https://calendly.com/tracessence/60-minutes-coaching-session",
-    localUrl: "https://paystack.shop/pay/trace-essence_singlecoaching",
+    localUrl:
+      "https://paystack.com/buy/identity-coaching---single-session-nkdnqr",
     list: [],
   },
   // {
