@@ -10,7 +10,7 @@ export default function Marquee() {
       </span>
       <Sparkle className="w-4 h-4 text-[#B38D56] mx-2 fill-current" />
       <span className="mx-2 text-lg font-semibold tracking-[0.2em] uppercase text-[#B38D56]">
-        Saturday, August 1, 2026
+        Saturday, October 3, 2026
       </span>
       <Sparkle className="w-4 h-4 text-[#B38D56] mx-2 fill-current" />
       <span className="mx-2 text-lg font-semibold tracking-[0.2em] uppercase">
