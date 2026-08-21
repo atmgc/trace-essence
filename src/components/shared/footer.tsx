@@ -88,7 +88,10 @@ const Footer = () => {
             <Link href="/about" className="hover:underline">
               About
             </Link>
-            <Link href="/contact" className="hover:underline">
+            <Link
+              href="mailto:info@trace-essence.com"
+              className="hover:underline"
+            >
               Contact Us
             </Link>
           </ul>

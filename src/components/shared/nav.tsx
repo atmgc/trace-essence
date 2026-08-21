@@ -61,7 +61,7 @@ export default function Nav() {
 
         {/* Join Button for Desktop */}
         <div className="hidden md:block">
-          <Link href={"/contact"}>
+          <Link href="mailto:info@trace-essence.com">
             <Button variant={"outline"}>Contact Us</Button>
           </Link>
         </div>
@@ -97,7 +97,7 @@ export default function Nav() {
             </Link>
           );
         })}
-        <Link href={"/contact"}>
+        <Link href="mailto:info@trace-essence.com">
           <Button onClick={() => setIsOpen(false)}>Contact Us</Button>
         </Link>
       </div>
