@@ -14,7 +14,7 @@ export default function MasterclassOverview() {
           <p className="text-[#1A1835] font-serif text-xl md:text-2xl leading-[1.4] italic">
             <span className="font-semibold not-italic">Who Am I Becoming?</span>{" "}
             is a live, three hour transformational masterclass designed for
-            women who know they&apos;ve outgrown who they used to be and are
+            people who know they&apos;ve outgrown who they used to be and are
             ready to step into the next chapter of their lives with greater
             clarity, confidence, and purpose.
           </p>
