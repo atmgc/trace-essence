@@ -23,7 +23,7 @@ const Book = () => {
             className="inline-block px-4 py-2 mt-2 bg-primary text-white font-semibold rounded-lg hover:from-purple-600 hover:to-purple-800 transition"
           >
             Get your copy here
-          </Link>.
+          </Link>
         </p>
       </div>
       <div className="hidden md:block relative">
