@@ -28,7 +28,7 @@ const Book = () => {
       </div>
       <div className="hidden md:block relative">
         <Image
-          src="/images/who-am-i.png"
+          src="/images/who-am-i.jpeg"
           alt="intro image"
           className="w-full h-full"
           width={1000}
@@ -62,7 +62,7 @@ const Book = () => {
 
       <div className="md:hidden flex items-center justify-center relative">
         <Image
-          src="/images/who-am-i.png"
+          src="/images/who-am-i.jpeg"
           alt="who am i image"
           className="w-fit h-fit"
           width={1000}
