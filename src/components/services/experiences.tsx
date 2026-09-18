@@ -103,7 +103,7 @@ const Experiences = () => {
               )}
 
               {/* Local Checkout Button */}
-              {exp.localUrl && (
+              {exp.localUrl? && (
                 <Link
                   href={exp.localUrl}
                   target="_blank"
