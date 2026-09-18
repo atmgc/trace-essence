@@ -35,8 +35,8 @@ const experiences = [
       "Review your progress and ask questions that have come up since your initial session",
       "Work through areas where you still feel stuck, uncertain, or challenged",
       "Receive accountability and refine your action steps so you can continue moving forward with clarity",
-      "Please note: This session is for returning Identity Coaching clients only. It is not available to new clients.",
     ],
+     note: "Please note: This session is for returning Identity Coaching clients only. It is not available to new clients.",
   },
 ];
 
@@ -86,6 +86,12 @@ const Experiences = () => {
                     </li>
                   ))}
                 </ul>
+              )}
+
+              {exp.note && (
+                <p className="mt-4 text-[#707070] text-sm italic">
+                  {exp.note}
+                </p>
               )}
             </CardContent>
 
