@@ -103,9 +103,9 @@ const Experiences = () => {
               )}
 
               {/* Local Checkout Button */}
-              {exp.localUrl? && (
+              {exp?.localUrl? && (
                 <Link
-                  href={exp.localUrl}
+                  href={exp?.localUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto flex-1"
