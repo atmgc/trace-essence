@@ -68,7 +68,7 @@ const Experiences = () => {
                 <div className="flex items-center gap-2">
                   <Clock color="#860D84" size={16} />
                   <CardDescription className="text-[#232323] text-sm">
-                    Duration: {duration}
+                    Duration: {exp.duration}
                   </CardDescription>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const Experiences = () => {
               )}
 
               {/* Local Checkout Button */}
-              {exp?.localUrl? && (
+              {exp?.localUrl && (
                 <Link
                   href={exp?.localUrl}
                   target="_blank"
