@@ -15,7 +15,7 @@ const experiences = [
   {
     title: "Identity Coaching - Single Session",
     subtitle: "$150",
-    duration: 60 mins,
+    duration: "60 mins",
     content:
       "Your Impact: Walk away with clear recognition about who you’re becoming, a deep understanding of how your current mindset is preventing you from embodying your new identity, and at least 3 tangible actions tailored to help you immediately start breaking the limiting patterns that have been holding you back. This session gives you clarity, confidence, and real momentum the moment you step out.",
     globalUrl: "https://calendly.com/tracessence/60-minutes-coaching-session",
@@ -26,7 +26,7 @@ const experiences = [
   {
     title: "Identity Coaching - Follow-Up",
     subtitle: "$100",
-    duration: 45 mins,
+    duration: "45 mins",
     content:
       "This 45-minute follow-up session is exclusively for returning clients who have completed an initial 60-minute Identity Coaching session with Trace Essence. During this session, you will:",
     globalUrl: "https://calendly.com/tracessence/identity-coaching-followup-session",
