@@ -7,9 +7,9 @@ import { DecorativeDivider } from "./features";
 
 export default function Investment() {
   const EARLY_BIRD_LINK =
-    "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass";
+    "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass-cohort3";
   const REGULAR_LINK =
-    "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass";
+    "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass-cohort3";
 
   // Paystack links (currently identical as requested, ready for you to update later)
   const PAYSTACK_EARLY_BIRD =
@@ -23,7 +23,7 @@ export default function Investment() {
 
   useEffect(() => {
     // Deadline: October 3, 2026 at 11:59 PM CDT
-    const deadline = new Date("2026-10-03T23:59:59-05:00");
+    const deadline = new Date("2027-10-03T23:59:59-05:00");
     const now = new Date();
     const expired = now > deadline;
 
