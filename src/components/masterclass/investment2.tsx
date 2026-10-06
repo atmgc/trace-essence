@@ -150,7 +150,7 @@ export default function Investment() {
           <div className="w-12 h-[1px] bg-[#B38D56] mb-6"></div>
 
           <p className="text-[#B38D56] text-sm md:text-base font-medium tracking-[0.15em] uppercase mb-3 drop-shadow-md">
-            Saturday, October 3, 2026
+            Saturday, January 16, 2027
           </p>
 
           <p className="text-white text-xs md:text-sm tracking-[0.15em] uppercase mb-8 drop-shadow-md">
