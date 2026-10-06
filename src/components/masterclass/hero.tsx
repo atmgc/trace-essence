@@ -7,9 +7,9 @@ import { useEffect, useState } from "react";
 export default function Hero() {
   // 1. Define your links
   const EARLY_BIRD_LINK =
-    "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass";
+    "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass-cohort3";
   const REGULAR_LINK =
-    "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass";
+    "https://calendly.com/tracessence/who-am-i-becoming-an-identity-shift-masterclass-cohort3";
 
   // 2. Set up state for the active link (Default to early bird)
   const [checkoutLink, setCheckoutLink] = useState(EARLY_BIRD_LINK);
