@@ -13,7 +13,7 @@ import { Clock } from "lucide-react";
 
 const experiences = [
   {
-    title: "Identity Coaching - Single Session",
+    title: "Identity Coaching | One on One | New Client",
     subtitle: "$150",
     duration: "60 mins",
     content:
