@@ -1,4 +1,3 @@
-```tsx
 import { StarIcon } from "@/assets/icons";
 import {
   Card,
@@ -249,4 +248,3 @@ const Experiences = () => {
 };
 
 export default Experiences;
-```
