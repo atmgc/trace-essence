@@ -15,11 +15,9 @@ const Identity = () => {
       </div>
       <div className="flex items-center">
         <p>
-          My identity coaching blends spiritual guidance with intuitive insights
-          to help you align with your most authentic self. Through
-          self-development practices and channeled messages from your spiritual
-          team, you’ll gain clarity, release what holds you back, and step into
-          a life of purpose and empowerment—all for your highest good.
+          Whether you’re looking for spiritual guidance, trying to understand yourself better or ready to make real changes in
+your life, each session serves a different purpose. Please read the descriptions below so you can choose the
+experience that best meets your needs.
         </p>
       </div>
       <div className="absolute bottom-[5%] right-[-10%]">
