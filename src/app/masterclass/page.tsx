@@ -10,9 +10,9 @@ import Nav from "@/components/shared/nav";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "About Tracy | Identity Coach & Intuitive Speaker",
-  description: "Meet Tracy, founder of Trace Essence. Learn about her approach to identity coaching, self
-discovery, personal growth, and intuitive spiritual guidance.",
+  title: "Who Am I Becoming? Identity Shift Masterclass | Trace Essence",
+  description: "Explore identity shifts, limiting beliefs, and practical next steps in the Who Am I Becoming?
+identity shift masterclass with Trace Essence.",
   openGraph: {
     images: ['/images/logo.png']
   }
