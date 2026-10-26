@@ -1,3 +1,4 @@
+import type metadata from "next";
 import AboutMasterclass from "@/components/masterclass/aboutMasterclass";
 import Features from "@/components/masterclass/features";
 import Hero from "@/components/masterclass/hero";
