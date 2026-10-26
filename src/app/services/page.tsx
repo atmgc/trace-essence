@@ -11,7 +11,14 @@ import Engagements from "@/components/services/engagements";
 import Services from "@/components/services/services";
 import ServiceGuide from "@/components/services/serviceGuide";
 
-
+export const metadata: Metadata = {
+  title: "Online Identity Coaching & Private Readings | Trace Essence",
+  description: "Explore online identity coaching, private intuitive readings and speaking services with Tracy. See
+what each service offers and how to book.",
+  openGraph: {
+    images: ['/images/logo.png']
+  }
+}
 
 export default function Home() {
   return (
