@@ -1,3 +1,4 @@
+import type metadata from "next";
 import About from "@/components/about/about";
 import Hero from "@/components/services/hero";
 import Contact from "@/components/home/contact";
@@ -9,6 +10,8 @@ import Wisdom from "@/components/services/wisdom";
 import Engagements from "@/components/services/engagements";
 import Services from "@/components/services/services";
 import ServiceGuide from "@/components/services/serviceGuide";
+
+
 
 export default function Home() {
   return (
