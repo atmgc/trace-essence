@@ -11,8 +11,7 @@ import React from "react";
 
 export const metadata: Metadata = {
   title: "Who Am I Becoming? Identity Shift Masterclass | Trace Essence",
-  description: "Explore identity shifts, limiting beliefs, and practical next steps in the Who Am I Becoming?
-identity shift masterclass with Trace Essence.",
+  description: "Explore identity shifts, limiting beliefs, and practical next steps in the Who Am I Becoming? Identity shift masterclass with Trace Essence.",
   openGraph: {
     images: ['/images/logo.png']
   }
