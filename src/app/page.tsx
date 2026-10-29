@@ -13,8 +13,7 @@ import Nav from "@/components/shared/nav";
 
 export const metadata: Metadata = {
   title: "Online Identity Coaching & Spiritual Guidance | Trace Essence",
-  description: "Rediscover who you are with online identity coaching, intuitive spiritual guidance, and practical
-tools for self-discovery. Explore sessions with Trace Essence.",
+  description: "Rediscover who you are with online identity coaching, intuitive spiritual guidance, and practical tools for self-discovery. Explore sessions with Trace Essence.",
   openGraph: {
     images: ['/images/logo.png']
   }
