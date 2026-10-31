@@ -1,4 +1,4 @@
-import type {metadata} from "next";
+import type { Metadata } from "next";
 import Book from "@/components/home/book";
 import Contact from "@/components/home/contact";
 import DidYouKnow from "@/components/home/did-you-know";
